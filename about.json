@@ -1,7 +1,7 @@
 {
     "name": "Abdullah Al Mahmud",
     "title": "PhD Student, Chemical and Biomolecular Engineering",
-    "profile_picture": "media/prof_pic_mahmud.jpeg",
+    "profile_picture": "media/pro_pic_mahmud.jpeg",
     "skills": [
         { "name": "Computational Catalysis", "colors": "bg-green-100 text-blue-800" },
         { "name": "Solvation Thermodynamics", "colors": "bg-indigo-100 text-indigo-800" },
