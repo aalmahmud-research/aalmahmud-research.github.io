@@ -1,0 +1,34 @@
+[
+  {
+    "degree": "PhD in Computer Science and Engineering",
+    "institution": "The Ohio State University",
+    "logo": "media/OSU.png",
+    "period": "2023 - Present",
+    "location": "Columbus, Ohio, USA",
+    "details": [
+      "GRA at OSU AIoT and Machine Learning Systems Lab",
+      "Thesis: Egocentric Long Video Understanding."
+    ],
+    "courses": [
+      "Speech and Natural Language Processing",
+      "Computer Vision"
+    ],
+    "course_colors": "bg-blue-100 text-blue-800"
+  },
+  {
+    "degree": "B.S. in Electrical and Electronic Engineering",
+    "institution": "Bangladesh University of Engineering and Technology",
+    "logo": "media/BUET.svg",
+    "period": "2016 - 2021",
+    "location": "Dhaka, Bangladesh",
+    "details": [
+      "Major : Communication and Signal Processing",
+      "Thesis: Biomedical Signal Processing"
+    ],
+    "courses": [
+      "Digital Signal Processing",
+      "Deep Learning"
+    ],
+    "course_colors": "bg-indigo-100 text-indigo-800"
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "name": "Md Shakhrul Iman Siam",
+    "title": "PhD Student Computer Science",
+    "profile_picture": "media/prof_pic_siam.jpg",
+    "skills": [
+        { "name": "Multi-modal LLM", "colors": "bg-green-100 text-blue-800" },
+        { "name": "Egocentric AI", "colors": "bg-indigo-100 text-indigo-800" },
+        { "name": "Speech Recognition", "colors": "bg-purple-100 text-purple-800" }
+    ],
+    "advisor_link": "https://mi-zhang.github.io/",
+    "bio":"I am Final-year Ph.D. Student, Department of Computer Science and Engineering at The Ohio State University (OSU). I am currently working as a Graduate Research Associate at OSU AIoT and Machine Learning Systems Lab under the supervision of Prof. Mi Zhang. I completed my undergraduate studies in Electrical and Electronic Engineering (EEE) from Bangladesh University of Engineering and Technology (BUET). Before starting my PhD, I worked for 2.5 years in Industry as a Machine Learning Engineer. I built various computer vision solutions that have very high business Impact. Currently, I am working on the design and implementation of the Efficient Large Language Model.",
+    "location": "The Ohio State University",
+    "email": "shakhrul.buet.eee@gmail.com",
+    "cv_link": "media/pdf/CV_2025.pdf",
+    "social_links": {
+    "linkedin": "https://www.linkedin.com/in/shakhrul-iman-siam",
+    "google_scholar": "https://scholar.google.com/citations?user=RNZuoTYAAAAJ&h",
+    "github": "https://github.com/shakhrulsiam268"
+  }
+}

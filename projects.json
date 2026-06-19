@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Person re-identification and Tracking",
+    "image": "media/person_reid.gif",
+    "stacks": ["Yolov5", "Pytorch", "Django"],
+    "github_link": "https://github.com/your-username/your-repo",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/person-re-id?authuser=0"
+  },
+  {
+    "name": "Automated Attendance System using Face Recognition",
+    "image": "media/face_rec.gif",
+    "stacks": ["PyTorch", "OpenCV", "RetinaFace"],
+    "github_link": "https://github.com/your-username/your-repo",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/automated-attendance-system-using-facial-recognition?authuser=0"
+  },
+  {
+    "name": "Customer Heatmap",
+    "image": "media/heatmap.gif",
+    "stacks": ["OpenCV", "PyTorch", "Django"],
+    "github_link": "",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/heatmap?authuser=0"
+  },
+  {
+    "name": "Voice Controlled Chatbot",
+    "image": "media/aci_chatbot.png",
+    "stacks": ["RASA", "GTTS"],
+    "github_link": "https://github.com/your-username/your-repo",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/chatbot?authuser=0"
+  },
+  {
+    "name": "Medicine Name Recognition from Handwritten Prescription",
+    "image": "media/medicine_ocr.gif",
+    "stacks": ["EasyOCR", "OpenCV"],
+    "github_link": "https://github.com/your-username/your-repo",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/medicine-name-recognition-from-handwritten-prescription?authuser=0"
+  },
+  {
+    "name": "Blind Vision Assistant",
+    "image": "media/blindvision.png",
+    "stacks": ["Raspberry pi", "Microcontroller"],
+    "github_link": "",
+    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/blind-vision?authuser=0"
+  }
+]

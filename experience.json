@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Applied Science Intern",
+    "company": "Microsoft",
+    "logo": "media/microsoft.png",
+    "period": "May 2026 - August 2026",
+    "location": "Redmond, WA",
+    "details": [
+      "Working on LLM Agent for Powerpoint presentation generation.",
+      "Reducing inference COGS by model routing and prompt caching.",
+      "Knowledge distillation to train a compact student model."
+    ],
+    "skills": ["LLM Agent", "Reinforcement Learning"]
+  },
+  {
+    "title": "Research Intern",
+    "company": "Microsoft",
+    "logo": "media/microsoft.png",
+    "period": "June 2025 - August 2025",
+    "location": "Mountain View, CA",
+    "details": [
+      "Design a Neural Audio Codec that disentangles speaker identity.",
+      "Achieved 95% improvement of Equal Error Rate.",
+      "Fine-tune a LLM-based Automatic Speech Recognition System."
+    ],
+    "skills": ["Automated Speech Recognition", "Neural Audio Codec"]
+  },
+  {
+    "title": "Graduate Research Assistant",
+    "company": "The Ohio State University",
+    "logo": "media/OSU.png",
+    "period": "2023 - present",
+    "location": "Columbus, OH, USA",
+    "details": [
+      "Multi-modal reading dataset of 100 hours of egocentric videos.",
+      "Medical QA Assistant using Retrieval-Augmented Generation",
+      "Multimodal Foundation Model for Respiratory Health Diagnosis"
+    ],
+    "skills": ["Egocentric AI", "Multi-modal LLM", "NLP"]
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "ACI Limited",
+    "logo": "media/aci.png",
+    "period": "October 2021 - August 2023",
+    "location": "Dhaka, Bangladesh",
+    "details": [
+      "Person re-identification and tracking using CCTV camera.",
+      "Facial Recognition based automatic attendance system.",
+      "Voice Controlled Conversational Chatbot."
+    ],
+    "skills": ["Computer Vision", "Automated Speech Recognition"]
+  },
+  {
+    "title": "Research and Development Executive",
+    "company": "Spectrum Engineering Consortium Limited",
+    "logo": "media/spectrum.jpg",
+    "period": "April 2021 - September 2021",
+    "location": "Dhaka, Bangladesh",
+    "details": [
+      "Developed a prototype of a low-cost mobile device.",
+      "Worked on developing a EOD Robot.",
+      "PCB Design"
+    ],
+    "skills": ["Robotics", "Microcontroller"]
+  }
+]
+

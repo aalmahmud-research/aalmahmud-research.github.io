@@ -1,0 +1,14 @@
+{
+  "profilePictureSize": 250,
+  "aboutBackgroundImage": null,
+  "publicationThumbnailWidth": "20%",
+  "sectionSpacingY": "2.5rem",
+  "fontSizes": {
+    "publicationTitle": "1.125rem",
+    "publicationMeta": "0.75rem",
+    "publicationTags": "0.6875rem",
+    "publicationButtons": "0.75rem",
+    "abstractTitle": "1rem",
+    "abstractBody": "0.875rem"
+  }
+}

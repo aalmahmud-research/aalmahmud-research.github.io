@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Egocentric AI",
+    "description": "Developing AI systems that understand the world from a first-person perspective, enabling applications in AR and robotics.",
+    "image": "media/aria.jpg"
+  },
+  {
+    "name": "Multi-Modal LLM",
+    "description": "Exploring the fusion of text, images, and audio to build more comprehensive and context-aware language models.",
+    "image": "media/multi_llm.png"
+  },
+  {
+    "name": "Speech Recognition",
+    "description": "Improving the accuracy and robustness of speech-to-text systems, especially in noisy and diverse environments.",
+    "image": "media/sr.webp"
+  },
+  {
+    "name": "AI in Healthcare",
+    "description": "Integrating Artificial Intelligence with the Internet of Things to create smarter, more efficient, and Healthcare systems.",
+    "image": "media/ai_health.png"
+  }
+]
