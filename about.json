@@ -5,12 +5,12 @@
     "skills": [
         { "name": "Computational Catalysis", "colors": "bg-green-100 text-blue-800" },
         { "name": "Solvation Thermodynamics", "colors": "bg-indigo-100 text-indigo-800" },
-        { "name": "DFT", "colors": "bg-purple-100 text-purple-800" }
+        { "name": "DFT", "colors": "bg-purple-100 text-purple-800" },
         { "name": "Water Splitting", "colors": "bg-sky-100 text-sky-800" },
         { "name": "Electrocatalysis", "colors": "bg-amber-100 text-amber-800" }
     ],
     "advisor_link": "https://people.engineering.osu.edu/people/getman.11",
-    "bio":"I am a second-year Ph.D. student at the William G. Lowrie          Department of Chemical and Biomolecular Engineering at The Ohio State University (OSU). I am currently working as a Graduate Research Associate in the Getman Fluid/Solid Interface Engineering Group under the supervision of Prof. Rachel B. Getman. <br> Previously, I was an MS student in the School of Chemical Engineering at Yeungnam University, South Korea. I worked as a research assistant in the Nano Energy Materials and Process Laboratory from March 2022 to March 2024. I worked on electrochemical water splitting and energy storage (supercapacitors). <br> Prior to joining YU, I obtained my BS in Chemical Engineering in 2021 under the Department of Chemical Engineering at the Bangladesh University of Engineering and Technology (BUET)."
+    "bio":"I am a second-year Ph.D. student at the William G. Lowrie Department of Chemical and Biomolecular Engineering at The Ohio State University (OSU). I am currently working as a Graduate Research Associate in the Getman Fluid/Solid Interface Engineering Group under the supervision of Prof. Rachel B. Getman. <br> Previously, I was an MS student in the School of Chemical Engineering at Yeungnam University, South Korea. I worked as a research assistant in the Nano Energy Materials and Process Laboratory from March 2022 to March 2024. I worked on electrochemical water splitting and energy storage (supercapacitors). <br> Prior to joining YU, I obtained my BS in Chemical Engineering in 2021 under the Department of Chemical Engineering at the Bangladesh University of Engineering and Technology (BUET).",
     "location": "The Ohio State University, Columbus, OH 43210, USA",
     "email": "aalmahmud.buet@gmail.com",
     "cv_link": "media/pdf/CV.pdf",
@@ -18,7 +18,7 @@
     "linkedin": "https://www.linkedin.com/in/almahmud-abdullah/",
     "google_scholar": "https://scholar.google.com/citations?hl=en&user=XFJougMAAAAJ&view_op=list_works&sortby=pubdate",
     "researchGate": "https://www.researchgate.net/profile/Abdullah-Al-Mahmud-21?ev=hdr_xprf",
-    "orcid": "https://orcid.org/0009-0002-2733-0475"    
+    "orcid": "https://orcid.org/0009-0002-2733-0475",    
     "github": "https://github.com/aalmahmud-research"
   }
 }
