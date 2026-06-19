@@ -6,7 +6,7 @@
         { "name": "Computational Catalysis", "colors": "bg-green-100 text-blue-800" },
         { "name": "Solvation Thermodynamics", "colors": "bg-indigo-100 text-indigo-800" },
         { "name": "DFT", "colors": "bg-purple-100 text-purple-800" },
-        { "name": "Water Splitting", "colors": "bg-sky-100 text-sky-800" },
+        { "name": "Water Splitting", "colors": "bg-sky-100 text-orange-800" },
         { "name": "Electrocatalysis", "colors": "bg-amber-100 text-amber-800" }
     ],
     "advisor_name": "Prof. Rachel B. Getman",
