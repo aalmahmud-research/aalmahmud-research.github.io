@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Project One",
+    "image": "media/project1.gif",
+    "stacks": ["PyTorch", "OpenCV", "Django"],
+    "github_link": "https://github.com/your-handle/project1",
+    "details_page": "https://example.com/project1-details"
+  },
+  {
+    "name": "Project Two",
+    "image": "media/project2.png",
+    "stacks": ["TensorFlow", "Flask"],
+    "github_link": "https://github.com/your-handle/project2",
+    "details_page": ""
+  },
+  {
+    "name": "Project Three",
+    "image": "media/project3.png",
+    "stacks": ["RASA", "gTTS"],
+    "github_link": "",
+    "details_page": "https://example.com/project3-details"
+  }
+]
