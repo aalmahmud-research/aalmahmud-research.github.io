@@ -376,7 +376,7 @@
                         document.title = `${aboutData.name} - Portfolio`;
                         document.getElementById('about-title').textContent = aboutData.title;
                         const bioHtml = aboutData.advisor_link
-                            ? aboutData.bio.replace('Prof. Rachel B. Getman', `<a href="${aboutData.advisor_link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Prof. Mi Zhang</a>`)
+                            ? aboutData.bio.replace('Prof. Rachel B. Getman', `<a href="${aboutData.advisor_link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Prof. Rachel B. Getman</a>`)
                             : aboutData.bio;
                         document.getElementById('about-bio').innerHTML = bioHtml;
                         document.getElementById('about-location').textContent = aboutData.location;
