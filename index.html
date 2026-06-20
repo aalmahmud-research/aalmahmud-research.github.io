@@ -121,6 +121,13 @@
             transform: scale(1.12) translateY(-2px) !important;
             box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
         }
+        /* Pagination controls */
+        .pager{display:flex;align-items:center;justify-content:center;gap:.4rem;margin-top:2rem;flex-wrap:wrap;}
+        .pager button{min-width:40px;height:40px;padding:0 .6rem;border-radius:10px;border:1px solid #e5e7eb;background:#fff;color:#1f2937;font-weight:600;font-size:.9rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:.3rem;transition:border-color .2s,color .2s,transform .15s;}
+        .pager button:hover:not(:disabled):not(.is-active){border-color:#3b82f6;color:#2563eb;transform:translateY(-1px);}
+        .pager button.is-active{background:#2563eb;border-color:#2563eb;color:#fff;}
+        .pager button:disabled{opacity:.4;cursor:not-allowed;}
+        .pager .pager-ellipsis{min-width:24px;text-align:center;color:#9ca3af;}
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -227,6 +234,7 @@
                 <p class="text-sm text-gray-500 mt-1">Latest announcements and achievements</p>
             </div>
             <!-- News content will be injected here --><div id="news-container" class="max-w-3xl mx-auto"></div>
+            <div id="news-pager" class="pager max-w-3xl mx-auto"></div>
         </section>
 
         <!-- Research Interest Section --><section id="research" class="fade-in-section">
@@ -263,6 +271,7 @@
                 <p class="text-sm text-gray-500 mt-1">Recent research contributions in machine learning, computer vision, and AI applications</p>
             </div>
             <!-- Publications content will be injected here --><div id="publications-container" class="space-y-5 max-w-5xl mx-auto"></div>
+            <div id="publications-pager" class="pager max-w-5xl mx-auto"></div>
         </section>
         
         <!-- Projects Section --><section id="projects" class="fade-in-section">
@@ -323,6 +332,8 @@
                     aboutBackgroundImage: null,
                     publicationThumbnailWidth: "33.3333%",
                     sectionSpacingY: "5rem",
+                    newsPerPage: 5,
+                    publicationsPerPage: 5,
                     fontSizes: {
                         publicationTitle: "1.125rem",
                         publicationMeta: "0.75rem",
@@ -450,15 +461,64 @@
                             .replace(/Microsoft/g, '<span style="display:inline-flex;align-items:center;gap:5px;font-weight:600;vertical-align:middle;"><svg width="13" height="13" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="10" height="10" fill="#f25022"/><rect x="11" y="0" width="10" height="10" fill="#7fba00"/><rect x="0" y="11" width="10" height="10" fill="#00a4ef"/><rect x="11" y="11" width="10" height="10" fill="#ffb900"/></svg>Microsoft</span>')
                             .replace(/The Ohio State University/g, '<span style="color:#ba0c2f;background:#fff0f2;font-weight:600;padding:1px 7px;border-radius:6px;">The Ohio State University</span>');
 
-                        document.getElementById('news-container').innerHTML = newsData.map((item, index) => `
+                        function setupPagination(opts) {
+                            const { items, perPage, container, pager, renderItem, sectionId } = opts;
+                            const total = items.length;
+                            const totalPages = Math.max(1, Math.ceil(total / perPage));
+                            let page = 1;
+                            const pageList = () => {
+                                const out = [];
+                                if (totalPages <= 7) { for (let n = 1; n <= totalPages; n++) out.push(n); return out; }
+                                out.push(1);
+                                if (page > 3) out.push('…');
+                                for (let n = Math.max(2, page - 1); n <= Math.min(totalPages - 1, page + 1); n++) out.push(n);
+                                if (page < totalPages - 2) out.push('…');
+                                out.push(totalPages);
+                                return out;
+                            };
+                            const drawPager = () => {
+                                if (totalPages <= 1) { pager.innerHTML = ''; return; }
+                                let html = `<button data-go="prev" ${page === 1 ? 'disabled' : ''} aria-label="Previous"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>`;
+                                pageList().forEach(n => {
+                                    html += (n === '…') ? `<span class="pager-ellipsis">…</span>` : `<button data-go="${n}" class="${n === page ? 'is-active' : ''}">${n}</button>`;
+                                });
+                                html += `<button data-go="next" ${page === totalPages ? 'disabled' : ''} aria-label="Next"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>`;
+                                pager.innerHTML = html;
+                                if (window.lucide) lucide.createIcons();
+                            };
+                            const draw = (scroll) => {
+                                const start = (page - 1) * perPage;
+                                const slice = items.slice(start, start + perPage);
+                                container.innerHTML = slice.map((item, i) => renderItem(item, i, slice, start, total)).join('');
+                                drawPager();
+                                if (window.lucide) lucide.createIcons();
+                                if (scroll) { const el = document.getElementById(sectionId); if (el) window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' }); }
+                            };
+                            pager.addEventListener('click', (e) => {
+                                const btn = e.target.closest('button[data-go]');
+                                if (!btn) return;
+                                const go = btn.dataset.go;
+                                if (go === 'prev') page = Math.max(1, page - 1);
+                                else if (go === 'next') page = Math.min(totalPages, page + 1);
+                                else page = parseInt(go, 10);
+                                draw(true);
+                            });
+                            draw(false);
+                        }
+
+                        const renderNewsItem = (item, i, pageItems, pageStart, total) => {
+                            const globalIndex = pageStart + i;
+                            return `
                             <div class="grid grid-cols-[auto_min-content_1fr] items-baseline gap-x-6">
                                 <p class="font-mono text-sm text-gray-500 text-right">${formatDate(item.date)}</p>
                                 <div class="relative">
-                                    <div class="h-4 w-4 rounded-full bg-white border-2 border-blue-500 z-10 relative mt-1 ${index === 0 ? 'dot-pulse' : ''}"></div>
-                                    ${index !== newsData.length - 1 ? '<div class="absolute top-4 left-1/2 -translate-x-1/2 h-full w-px bg-gradient-to-b from-blue-300 to-gray-200"></div>' : ''}
+                                    <div class="h-4 w-4 rounded-full bg-white border-2 border-blue-500 z-10 relative mt-1 ${globalIndex === 0 ? 'dot-pulse' : ''}"></div>
+                                    ${i !== pageItems.length - 1 ? '<div class="absolute top-4 left-1/2 -translate-x-1/2 h-full w-px bg-gradient-to-b from-blue-300 to-gray-200"></div>' : ''}
                                 </div>
                                 <div class="pb-6"><p class="text-gray-800">${highlightNews(item.title)}</p></div>
-                            </div>`).join('');
+                            </div>`;
+                        };
+                        setupPagination({ items: newsData, perPage: config.newsPerPage, container: document.getElementById('news-container'), pager: document.getElementById('news-pager'), renderItem: renderNewsItem, sectionId: 'news' });
 
                         // Render Research Interests
                         document.getElementById('research-container').innerHTML = researchData.map(item => `
