@@ -1,38 +1,50 @@
 [
   {
+    "date": "June 2026",
+    "title": "I’ve given an oral presentation on my PhD research at the Midwest Thermodynamics and Statistical Mechanics (MTSM) conference at the University of Minnesota, Twin Cities!",
+    "description": "I’ve given an oral presentation on my PhD research at the Midwest Thermodynamics and Statistical Mechanics (MTSM) conference at the University of Minnesota, Twin Cities!",
+    "link": "#"
+  },
+  {
     "date": "May 2026",
-    "title": "I’ve Joined Microsoft as an Applied Science Intern!",
-    "description": "I’ve Joined Microsoft as an Applied Science Intern!",
+    "title": "Our previous work on 'Nb-doped MoSe<sub>2</sub>/Nb<sub>2</sub>CT<sub>x</sub>' has been published in <b><i>Journal of Power Sources.</i></b>",
+    "description": "Our work on 'Nb-doped MoSe<sub>2</sub>/Nb<sub>2</sub>CT<sub>x</sub>' has been published in <b><i>Journal of Power Sources.</i></b>",
     "link": "#"
   },
   {
-    "date": "Apr 2026",
-    "title": "Our work 'RespiraMFM' has been accepted at ACL 2026 Main Conference.",
-    "description": "Our work 'RespiraMFM' has been accepted at ACL 2026 (Main).",
+    "date": "January 2026",
+    "title": "Our review article on 'MOF-derived hollow nanostructure' has been published in <b><i>Renewable and Sustainable Energy Reviews.</i></b>",
+    "description": "Our review article on 'MOF-derived hollow nanostructure' has been published in <b><i>Renewable and Sustainable Energy Reviews.</i></b>",
     "link": "#"
   },
   {
-    "date": "Sep 2025",
-    "title": "Our work 'Reading Recognition in the Wild' has been accepted at NeurIPS 2025.",
-    "description": "Our work 'Reading Recognition in the Wild' has been accepted at NeurIPS 2025.",
+    "date": "October 2025",
+    "title": "Our previous research on hydrogenation of 3-nitrophenylacetylene and H<sub>2</sub> has been published in <b><i>SusMat.</i></b>",
+    "description": "Our research on hydrogenation of 3-nitrophenylacetylene and H<sub>2</sub> has been published in <b><i>SusMat.</i></b>",
     "link": "#"
   },
   {
-    "date": "May 2025",
-    "title": "I’ve Joined Microsoft as a Research Intern!",
-    "description": "I’ve Joined Microsoft as a Research Intern!",
+    "date": "August 2025",
+    "title": "Our previous work with bimetallic sulfide with MXene for supercapacitor application is now published in <b><i>Chemical Engineering Journal.</i></b>",
+    "description": "Our work with bimetallic sulfide with MXene for supercapacitor application is now published in <b><i>Chemical Engineering Journal.</i></b>",
     "link": "#"
   },
   {
-    "date": "Aug 2024",
-    "title": "Our Paper titled “Artificial Intelligence of Things: A Survey” has been published in ACM Transactions on Sensor Networks",
-    "description": "",
+    "date": "July 2025",
+    "title": "Our abstract based on my MS thesis work is accepted in <b><i>Electrochemical Society Meeting Abstracts 247</i></b> for an oral talk.",
+    "description": "Our abstract based on my MS thesis work is accepted in <b><i>Electrochemical Society Meeting Abstracts 247</i></b> for an oral talk.",
     "link": "#"
-  },
+  }
+   {
+    "date": "July 2025",
+    "title": "Our previous research with metal-doped MoSe<sub>2</sub>/Mo<sub>2</sub>C for water splitting is now published in <b><i>Journal of Materiomics.</i></b>",
+    "description": "Our research with metal-doped MoSe<sub>2</sub>/Mo<sub>2</sub>C for water splitting is now published in <b><i>Journal of Materiomics.</i></b>",
+    "link": "#"
+  }
   {
-    "date": "Aug 2023",
-    "title": "I’ve started my Ph.D. in CSE at The Ohio State University.",
-    "description": "",
+    "date": "April 2025",
+    "title": "Our previous work with multicomponent metal boride/metal oxide-based composites for water splitting is now published in <b><i>ACS Langmuir.</i></b>",
+    "description": "Our previous work with multicomponent metal boride/metal oxide-based composites for water splitting is now published in <b><i>ACS Langmuir.</i></b>",
     "link": "#"
   }
 ]
