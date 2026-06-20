@@ -3,15 +3,15 @@
     "status": "",
     "status_colors": "bg-black-200 text-black-800",
     "year": "2026",
-    "title": "SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory",
-    "authors": "Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe, Hyo Jin Kim, Mi Zhang",
-    "conference": "Under Review",
-    "thumbnail": "media/supermemory-vqa.png",
+    "title": "Rational design of interface-coupled Nb-doped MoSe2/Nb2CTx MXene heterostructures with enriched active sites toward enhanced hydrogen evolution reaction",
+    "authors": "Ramaraj Sukanya, Raj Karthik, Abdullah Al Mahmud, Eithne Dempsey, Deivasigamani Ranjith Kumar, Carmel B. Breslin, Jae-Jin Shim",
+    "journal": "Journal of Power Sources",
+    "thumbnail": "media/Nb-MoSe2-Nb2CTx.jpg",
     "project_link": "https://supermemory-vqa.github.io/",
-    "paper_link": "https://arxiv.org/pdf/2606.00825",
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S0378775326004246",
     "github_link": "https://github.com/AIoT-MLSys-Lab/supermemory-vqa",
-    "description": "AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition or generic QAs from short clips, measuring perceptual capabilities rather than realistic human memory needs. We introduce SuperMemory-VQA, an egocentric visual question answering (VQA) dataset for evaluating AI assistants on practical, long-horizon memory tasks. It contains 52.9 hours of everyday activities recorded with AI glasses, including synchronized RGB video, audio transcription, eye gaze, IMU, and SLAM trajectories. Through a humanverified annotation pipeline, we construct grounded 4,853 question-answer pairs that span object and location memory, intent recall, visual scene recall, timeline reconstruction, conversational memory, and in-context retrieval. Each question is posed as multiple-choice with an explicit “unanswerable” option to test hallucination robustness. Benchmarking leading agentic frameworks and LLM backbones reveals that existing systems remain far from reliable on real-world memory tasks, highlighting the need for new architectures for grounded AI memory that can answer only when evidence is sufficient. A participant survey further supports that our questions are realistic, useful, and aligned with everyday memory needs",
-    "tags": ["Computer Vision", "Egocentric AI", "VQA Benchmark"]
+    "description": "Hydrogen (H2) is a clean fuel with the potential to enable carbon-neutral energy systems. However, its large-scale application requires low-cost, efficient, and durable electrocatalysts for the hydrogen evolution reaction. Herein, we report a heterostructure consisting of niobium-doped molybdenum diselenide (Nb-MoSe2) anchored on Nb2CTx MXene. Nb-MoSe2 was synthesized via a hydrothermal route, while Nb2CTx was prepared through selective acid etching of Nb2AlC MAX phase. The heterostructure was assembled using a simple ultrasonication process. Nb-doping modifies the electronic environment of MoSe2 and increases the density of catalytically active sites, while the Nb2CTx MXene provides a highly conductive scaffold to prevent particle agglomeration and facilitate rapid charge transfer. Electrochemical testing in acidic media reveals that the optimized Nb-MoSe2/Nb2CTx exhibits improved HER performance, achieving an overpotential of 287 mV at 10 mA cm−2 and 405 mV at 50 mA cm−2, with a Tafel slope of 122 mV dec−1 and stable operation over 48 h using a carbon cloth substrate. Compared to Nb-MoSe2, Nb2CTx and MoSe2, the heterostructure shows enhanced catalytic activity, which is associated with the combined contribution of Nb-doped MoSe2 and the conductive MXene support. This study offers a scalable approach to designing heterostructure electrocatalysts through doping and surface design for hydrogen technologies.",
+    "tags": ["Nb-doped MoSe2", "Stacked Nb2CTx MXene", "Electrocatalysis", "Hydrogen Evolution Reaction (HER)"]
   },
   {
     "status": "",
