@@ -1,33 +1,58 @@
 [
   {
-    "degree": "PhD in Computer Science and Engineering",
+    "degree": "PhD in Chemical and Biomolecular Engineering",
     "institution": "The Ohio State University",
     "logo": "media/OSU.png",
-    "period": "2023 - Present",
-    "location": "Columbus, Ohio, USA",
+    "period": "2025 - Present",
+    "location": "Columbus, OH 43210, USA",
     "details": [
-      "GRA at OSU AIoT and Machine Learning Systems Lab",
-      "Thesis: Egocentric Long Video Understanding."
+      "GRA at Getman Fluid/Solid Interface Engineering Group",
+      "Thesis: Influence of rotational flexibility of adsorbates on the solvation thermodynamics of zeolites"
     ],
     "courses": [
-      "Speech and Natural Language Processing",
-      "Computer Vision"
+      "Advanced Thermodynamics",
+      "Advanced Kinetics",
+      "Computational Catalysis",
+      "Design and Analysis of Experiments"
     ],
     "course_colors": "bg-blue-100 text-blue-800"
   },
   {
-    "degree": "B.S. in Electrical and Electronic Engineering",
+    "degree": "MS in Chemical Engineering",
+    "institution": "Yeungnam University",
+    "logo": "media/YU.png",
+    "period": "2022 - 2024",
+    "location": "Gyeongsan 38543, South Korea",
+    "details": [
+      "GRA at Nano Energy Materials and Processes Laboratory",
+      "Thesis: N-rich γ-MoC/NiC composite with reduced graphene oxide and its incorporation with Fe<sub>3</sub>C for enhancing electrochemical water splitting"
+    ],
+    "courses": [
+      "Molecular Thermodynamics",
+      "Clean Separation Processes",
+      "Photovoltaic Engineering",
+      "Special Theory of H<sub>2</sub> Production Tech",
+       "Green Natural Polymeric Materials"
+    ],
+    "course_colors": "bg-purple-100 text-blue-800"
+  },
+  {
+    "degree": "BS in Chemical Engineering",
     "institution": "Bangladesh University of Engineering and Technology",
     "logo": "media/BUET.svg",
     "period": "2016 - 2021",
     "location": "Dhaka, Bangladesh",
     "details": [
       "Major : Communication and Signal Processing",
-      "Thesis: Biomedical Signal Processing"
+      "Thesis: Quantitative Analysis of Waste Water Effluents of Different Industrial Sectors in Bangladesh"
     ],
     "courses": [
-      "Digital Signal Processing",
-      "Deep Learning"
+      "Process Control",
+      "Material and Energy Balance",
+      "Heat Transfer",
+      "Mass Transfer 1 & 2",
+      "Fluid Mechanics",
+      "Process Design & Safety"
     ],
     "course_colors": "bg-indigo-100 text-indigo-800"
   }
