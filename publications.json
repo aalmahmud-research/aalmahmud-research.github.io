@@ -39,16 +39,16 @@
     "tags": ["MXene", "Supercapacitors", "Batteries", "OER", "ORR", "HER"]
   },
   {
-    "status": "Mobisys 2026",
+    "status": "",
     "status_colors": "bg-green-100 text-green-800",
     "year": "2026",
-    "title": "MemoLens: Empowering Augmented Reality Glasses with Super Memory",
-    "authors": "Samiul Alam, Shakhrul Iman Siam, Mi Zhang",
-    "conference": "The 24th ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2026)",
-    "thumbnail": "media/memolens.png",
-    "paper_link": "https://dl.acm.org/doi/abs/10.1145/3745756.3809235",
-    "description": "Spatial computing empowered by augmented reality (AR) glasses emerges as a new computing paradigm. One of its most transformative capabilities is super memory - the super power to accurately recall objects and people an individual has been paying attention to or interacting with in the physical world. In this work, we propose MemoLensthat empowers AR glasses with super memory. Achieving such capability is not trivial: it requires storing vast amounts of visual data as compact digital memory and retrieving relevant information from the memory efficiently when being prompted. MemoLens achieves this via two key innovations. First, MemoLens leverages eye gaze information captured by the AR glasses to detect what the individual is paying attention to, and introduces a spatio-temporal token compression technique to generate highly compact visual memory. Second, MemoLens introduces a hierarchical search scheme that enables efficient retrieval of relevant memory based on user prompts. We implemented MemoLens using Meta's Aria AR glasses, and evaluated its performance on more than 100 hours of egocentric videos collected in real-world settings. Our results show that MemoLens is able to achieve accurate memory retrieval in real time. Given its promising performance, we believe MemoLens represents a significant step towards realizing always-on super memory in next-generation AR glasses.",
-    "tags": ["Computer Vision", "Egocentric AI"]
+    "title": "Enhanced Catalytic Performance via Ultrasonication‐Plasma Synergy in PtGaPCoOx Catalysts Under Mild Conditions",
+    "authors": "Wail Al Zoubi, Yujun Sheng, Mohammad R Thalji, Bassem Assfour, Stefano Leoni, <b>Abdullah Al Mahmud</b>, Jee‐Hyun Kang, Abdul Wahab Allaf, Young Gun Ko",
+    "conference": "SusMat",
+    "thumbnail": "media/PtGaPCoOx.jpg",
+    "paper_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/sus2.70029",
+    "description": "The synergistic effect of bi-component support catalysts via facile synthesis remains a pivotal challenge in catalysis, particularly under mild conditions. Therefore, this study reports an ultrasonication-plasma strategy to produce a PtGaPCoCoO@TiOx site catalyst encapsulated within a high-entropy alloy framework. This approach harnesses instantaneous high-temperature plasma generated using an electrical field and ultrasonication under ambient conditions in H₂O. This study also elucidates the origin of the bifunctional effect in high-loading, ultra-stable, and ultra-fine PtGaPCoCoO catalysts, which are coated with a reducible TiOx layer, thereby achieving optimal catalytic activity and hydrogen evolution reaction (HER) performance. PtGaPCo intimacy in PtGaPCoCoO@TiOx is tuned and distributed on the porous titania coating based on strong metal–support interactions by leveraging the instantaneous high-energy input from plasma discharge and ultrasonication under ambient conditions in H2O. PtGaPCoCoO@TiOx exhibits remarkable selectivity and durability in the hydrogenation of 3-nitrophenylacetylene, even after 25 cycles with high conversion rates, significantly outperforming comparative catalysts lacking the ultrasonication plasma treatment and other reported catalysts. Furthermore, the catalyst exhibits exceptional HER activity, demonstrated by an overpotential of 187 mV at a current density of 10 mA cm−2 and a Tafel slope of 152 mV dec−1. This enhancement can be attributed to an increased electron density on the Pt surface within the PtGaPCo alloy. These findings highlight the potential of achieving synergistic chemical interactions among active metal sites in stable, industry-applicable catalysts.",
+    "tags": ["bi-components", " hydrogen evolution", "metals", "plasma", "ultrasonic"]
   },
   {
     "status": "NeurIPS 2025",
