@@ -51,46 +51,48 @@
     "tags": ["bi-components", " hydrogen evolution", "metals", "plasma", "ultrasonic"]
   },
   {
-    "status": "NeurIPS 2025",
+    "status": "",
     "status_colors": "bg-purple-200 text-purple-800",
     "year": "2025",
-    "title": "Reading Recognition in the Wild",
-    "authors": "Charig Yang, Samiul Alam, Shakhrul Iman Siam, Michael J Proulx, Lambert Mathias, Kiran Somasundaram, Luis Pesqueira, James Fort, Sheroze Sheriffdeen, Omkar Parkhi, and others",
-    "conference": "Advances in Neural Information Processing Systems (NeurIPS)",
-    "thumbnail": "media/reading_wild_.gif",
-    "description": "To enable egocentric contextual AI in always-on smart glasses, it is crucial to be able to keep a record of the user's interactions with the world, including during reading. In this paper, we introduce a new task of reading recognition to determine when the user is reading. We first introduce the first-of-its-kind large-scale multimodal Reading in the Wild dataset, containing 100 hours of reading and non-reading videos in diverse and realistic scenarios. We then identify three modalities (egocentric RGB, eye gaze, head pose) that can be used to solve the task, and present a flexible transformer model that performs the task using these modalities, either individually or combined. We show that these modalities are relevant and complementary to the task, and investigate how to efficiently and effectively encode each modality. Additionally, we show the usefulness of this dataset towards classifying types of reading, extending current reading understanding studies conducted in constrained settings to larger scale, diversity and realism. Code, model, and data will be public.",
-    "tags": ["Computer Vision", "Egocentric AI"],
-    "paper_link": "media/pdf/reading_recognition.pdf",
+    "title": "Synergistic interface of Nb-doped MoSe2 and NiTe heterostructure enables efficient electrocatalysis for hydrogen evolution",
+    "authors": "Ramaraj Sukanya, Raj Karthik, <b>Abdullah Al Mahmud</b>, Eithne Dempsey, Deivasigamani Ranjith Kumar, Carmel B Breslin, Jae-Jin Shim",
+    "conference": "Electrochemistry Communications",
+    "thumbnail": "media/Nb-MoSe2-NiTe.jpg",
+    "description": "To support clean hydrogen energy, we present a niobium-doped molybdenum diselenide integrated with nickel telluride (Nb-MoSe2–NiTe) heterostructure as an efficient electrocatalyst for the hydrogen evolution reaction (HER) in acidic media. Nb-doping modulates the electronic structure of MoSe2, while NiTe contributes to enhanced conductivity and introduces additional active interfacial sites. Structural and surface characterizations confirm successful doping and heterostructure formation. The optimized Nb-MoSe2–NiTe composition achieves a low overpotential of 395 mV at 50 mA/cm2 and a Tafel slope of 242 mV/dec, along with a high ECSA of 377.5 cm2. These enhancements result from synergistic interactions that promote charge transfer and hydrogen adsorption. The Nb-MoSe2–NiTe offers a promising platform for cost-effective HER catalysis, demonstrating a rational strategy that integrates electronic and interfacial engineering for sustainable hydrogen production.",
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S1388248125002012",
     "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
-    "github_link": "https://github.com/AIoT-MLSys-Lab/Reading-in-the-Wild-Columbus"
+    "tags": ["Nb-doped MoSe2", "Nickel telluride", "heterostructure", "Electrocatalysis"]
   },
   {
-    "status": "MobiSys 2024",
+    "status": "",
     "status_colors": "bg-green-100 text-green-800",
-    "year": "2024",
-    "title": "ChirpTransformer: Versatile LoRa encoding for low-power wide-area IoT",
-    "authors": "Chenning Li, Yidong Ren, Shuai Tong, Shakhrul Iman Siam, Mi Zhang, Jiliang Wang, Yunhao Liu, and Zhichao Cao",
-    "conference": "The 22th ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2024)",
-    "thumbnail": "media/paper_chirp.png",
-    "description": "This paper introduces ChirpTransformer, a versatile LoRa encoding framework that harnesses broad chirp features to dynamically modulate data, enhancing network coverage, throughput, and energy efficiency. Unlike the standard LoRa encoder that offers only single configurable chirp feature, our framework introduces four distinct chirp features, expanding the spectrum of methods available for data modulation. To implement these features on commercial off-the-shelf (COTS) LoRa nodes, we utilize a combination of a software design and a hardware interrupt. ChirpTransformer serves as the foundation for optimizing encoding and decoding in three specific case studies: weak signal decoding for extended network coverage, concurrent transmission for heightened network throughput, and data rate adaptation for improved network energy efficiency.",
-    "tags": ["AIoT"],
-    "paper_link": "media/pdf/paper_chirp.pdf",
-    "project_link": null,
-    "github_link": null
+    "year": "2025",
+    "title": "Emerging MXene/metal selenides for energy solutions: A comprehensive review",
+    "authors": "Syed Adil Shah, Abdul Hameed Pato, Sahil Jangra, <b>Abdullah Al Mahmud</b>, Imran Haider Sajid, P Rosaiah, Karanpal Singh, Hari Bandi, Muhammd Zubair Khan, Mohd Shkir, Syed Rizwan, Tensangmu Lama Tamang, Iftikhar Hussain",
+    "conference": "Nano Research",
+    "thumbnail": "media/Nano-research.jpg",
+    "description": "MXenes  and  transition  metal  selenides  (TMSe)  have
+emerged  as  prominent  electrode  materials  for  energy  storage  and
+conversion applications. The integration of diverse TMSe nanostructures
+with MXenes introduces promising research avenues for tailored designs
+ranging  from  zero-dimensional  (0D)  to  three-dimensional  (3D)
+configurations,  boosting  structural  integrity  and  enhancing  the  transport properties of ions and electrons. This integrative framework significantly enhances the overall electrochemical performance. This review examines recent  advancements  in  the  integrated  design  of  TMSe  and  MXenes, specifically focusing on their application in various energy storage (such as  supercapacitors,  lithium-ion,  sodium-ion,  magnesium-ion,  aluminum-ion,  and  lithium–sulfur  batteries)  and  energy  conversion  (including hydrogen  and  oxygen  evolution  reactions)  systems.  Furthermore,  it discusses  the  existing  challenges  and  future  prospects  of  employing MXene/TMSe  hybrids  not  only  for  sustainable  electrochemical  energy storage and conversion but also for diverse electronic devices.",
+    "paper_link": "https://www.sciopen.com/local/article_pdf/10.26599/NR.2025.94907855.pdf",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+"tags": ["MXenes", "transition metal selenides", "supercapacitors", "batteries", "energy conversion"]
   },
   {
-    "status": "ACM TOSN 2024",
+    "status": "",
     "status_colors": "bg-green-100 text-green-800",
-    "year": "2024",
-    "title": "Artificial intelligence of things: A survey",
-    "authors": "Shakhrul Iman Siam, Hyunho Ahn, Li Liu, Samiul Alam, Hui Shen, Zhichao Cao, Ness Shroff, Bhaskar Krishnamachari, Mani Srivastava, and Mi Zhang",
-    "conference": "ACM Transactions on Sensor Networks",
-    "thumbnail": "media/paper_aiot.png",
-    "description": "The integration of the Internet of Things (IoT) and modern Artificial Intelligence (AI) has given rise to a new paradigm known as the Artificial Intelligence of Things (AIoT). In this survey, we provide a systematic and comprehensive review of AIoT research. We examine AIoT literature related to sensing, computing, and networking & communication, which form the three key components of AIoT. In addition to advancements in these areas, we review domain-specific AIoT systems that are designed for various important application domains. We have also created an accompanying GitHub repository, where we compile the papers included in this survey: https://github.com/AIoT-MLSys-Lab/AIoT-Survey. This repository will be actively maintained and updated with new research as it becomes available. As both IoT and AI become increasingly critical to our society, we believe that AIoT is emerging as an essential research",
-    "tags": ["AIoT", "Survey"],
-    "paper_link": "media/pdf/paper_aiot.pdf",
-    "project_link": null,
-    "github_link": "https://github.com/AIoT-MLSys-Lab/AIoT-Survey"
+    "year": "2025",
+    "title": "Ethyl xanthate-driven in situ synthesis of Ni-Fe sulfide@ Ti3C2Tx MXene hybrid electrodes for ultra-high-performance supercapacitors",
+    "authors": "Mohammad R Thalji,<b>Abdullah Al Mahmud</b>,  Farzaneh Mahmoudi, Amr Hussein Mady, Deivasigamani Ranjith Kumar, Kwok Feng Chong, Chinho Park, Jae-Jin Shim",
+    "conference": "Chemical Engineering Journal",
+    "thumbnail": "media/NFS-MXene.jpg",
+    "description": "The development of high-performance supercapacitors remains limited by sluggish ion transport and insufficient redox activity of conventional electrodes. Herein, we report, for the first time, an ethyl xanthate-driven in situ solvothermal synthesis of three-dimensional (3D) bimetallic nickel–iron sulfide (NFS) directly and uniformly grown on two-dimensional (2D) single-layer Ti3C2Tx MXene nanosheets pre-deposited on nickel foam, forming a unique binder-free 2D/3D hierarchical hybrid electrode architecture. The 2D MXene sheets serve as conductive, high-surface-area substrates, while the 3D NFS nanostructures interconnect the sheets and extend them into the vertical dimension, facilitating rapid electron/ion transport and providing abundant redox-active sites. The resulting NFS@MXene electrode delivers an exceptional specific capacity of 1693 C g−1 (4233 F g−1) at 1 A g−1, with outstanding rate performance (80.2 % retention at 15 A g−1) and cycling stability (98.5 % retention after 15,000 cycles). Ex situ X-ray photoelectron spectroscopy and Dunn's analysis revealed a synergistic charge storage mechanism involving reversible multivalent redox transitions of Ni2+/Ni3+, Fe2+/Fe3+, and Ti2+/Ti3+/Ti4+, elucidating the synergistic charge-storage mechanism. Furthermore, an assembled asymmetric hybrid supercapacitor (NFS@MXene//AC) achieves a high energy density of 82 Wh kg−1, a power density of 8.0 kW kg−1, and excellent cycling stability (98.8 % retention after 15,000 cycles). These results highlight a scalable and effective strategy to construct next-generation energy storage systems via rational integration of MXene scaffolds with multi-redox-active metal sulfides.",
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S1385894725086292",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["MXene", "Nickel–iron sulfide", "Ethyl xanthate", "Asymmetric supercapacitor", "Redox-active material", "Charge-storage mechanism"]
   },
   {
     "status": "ICECE 2022",
