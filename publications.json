@@ -205,6 +205,19 @@
     "paper_link": "https://www.sciencedirect.com/science/article/abs/pii/S0013468624010958",
     "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
     "tags": ["Metal-organic frameworks", "Doping strategy", "Supercapacitors", "OER catalysts", "Synergistic effect"]
+  },
+  {
+    "status": " ",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Bifunctional MoC/NiC@N-doped reduced graphene oxide nano electrocatalyst for simultaneous production of hydrogen and oxygen through efficient overall electrochemical water splitting",
+    "authors": "<b>Abdullah Al Mahmud</b>, Mohammad R Thalji, Ganesh Dhakal, Yuvaraj Haldorai, Woo Kyoung Kim, Jae-Jin Shim",
+    "conference": "Materials Today Nano",
+    "thumbnail": "media/bifunctional.jpg",
+    "description": "Recently, hydrogen has been an important green energy source for fuel cell-operated vehicles, buildings, power plants, and portable electronics. This study focuses on developing inexpensive, non-noble bifunctional transition metal nano electrocatalysts for producing green hydrogen and industrially important oxygen simultaneously by water splitting. A nanocomposite consisting of two single-metal carbides, MoC and NiC, and nitrogen-doped reduced graphene oxide (N-rGO) was prepared for the first time as an electrocatalyst and used in water splitting. The overpotential of MoC/NiC@N-doped rGO was 185 mV for the hydrogen evolution reaction (HER) and 298 mV for the oxygen evolution reaction (OER). The Tafel slopes for HER and OER were relatively modest, 78 and 80 mV dec−1, respectively. The nanocomposite had a 6.8 % lower overpotential than RuO2 for OER. A symmetric two-electrode setup was prepared to split water through HER/OER to produce hydrogen and water simultaneously. In this apparatus, the nanocomposite electrocatalyst exhibited high performance, raising the current density to 10 mA cm−2 and lowering the cell voltage by 2.5 % below the standard material. The nanocomposite showed excellent stability for 55 h for overall water splitting. The highly performing MoC/NiC@N-doped rGO nanocomposite may open the horizon for developing efficient, inexpensive, non-noble bifunctional electrocatalysts.",
+    "paper_link": "https://www-sciencedirect-com.proxy.lib.ohio-state.edu/science/article/pii/S2588842024000397",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["Electrocatalyst", "MoC/NiC", "N-doped reduced graphene oxide", "Carbide nanocomposite"]
   }
 ]
 
