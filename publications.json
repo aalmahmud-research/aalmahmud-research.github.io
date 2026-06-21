@@ -193,5 +193,18 @@
     "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
     "tags": ["Synergy", "Bimetal", "Catalyst", "Stability", "Activity"]
   },
+  {
+    "status": " ",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Copper-doped strontium metal-organic framework: Dual-function active material for supercapacitor and oxygen evolution reaction",
+    "authors": "<b>Abdullah Al Mahmud</b>, Azad H Alshatteri, Huda S Alhasan, Wail Al Zoubi,  Khalid M Omer, Mohammad R Thalji",
+    "conference": "Electrochimica Acta",
+    "thumbnail": "media/acta.jpg",
+    "description": "Bimetallic metal-organic frameworks (MOFs) have recently been a research hotspot for numerous energy applications because of the heightened synergistic impact between their elements. Nevertheless, MOFs' relatively low electrical conductivity and ability to mask active sites severely restrict their use. Herein, we synthesize a novel copper-doped strontium metal-organic framework (Cu-doped Sr MOF) material via a facile hydrothermal method. Interestingly, it demonstrates a notable energy storage performance with a specific capacity of 243.6 C g−1 (443 F g−1) compared to the undoped Sr MOF (81.3 C g−1 and 147.8 F g−1) at 1 A g−1. It also reveals long-term cycling stability (98.7 % over 10,000 GCD cycles) and fast ion diffusion. Moreover, an asymmetrical supercapacitor device assembled using Cu-doped Sr MOF as the positive electrode and AC as the negative electrode can provide an energy density of 19 Wh kg−1 and a power density of 801 W kg−1. The Cu-doped Sr MOF electrode exhibits a distinct overpotential of 398 mV compared to undoped Sr MOF (600 mV) at 10 mA cm−2, with a Tafel slope of 58 mV dec−1. The outstanding electrochemical performance and OER activity can be attributed to the synergistic effects between Cu and Sr in the MOF cluster. This study provides valuable insight into the doping strategy in the MOF cluster. Also, it opens new possibilities for designing alternative MOF electrodes and catalysts for commercial applications in supercapacitors and oxygen evolution reactions.",
+    "paper_link": "https://www.sciencedirect.com/science/article/abs/pii/S0013468624010958",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["Metal-organic frameworks", "Doping strategy", "Supercapacitors", "OER catalysts", "Synergistic effect"]
+  }
 ]
 
