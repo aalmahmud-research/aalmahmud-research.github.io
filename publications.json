@@ -1,6 +1,19 @@
 [
   {
-    "status": "",
+    "status": "Oral Presentation",
+    "status_colors": "bg-black-200 text-black-800",
+    "year": "2026",
+    "title": "Unraveling Adsorption Hydrophilic FAU Zeolites: Coupling DFT-Derived Charge Distributions with Statistical Mechanical Simulations",
+    "authors": "<b>Abdullah Al Mahmud</b>, Rachel B. Getman",
+    "conference": "Midwest Thermodynamics and Statistical Mechanics (MTSM) 2026 Conference",
+    "thumbnail": "media/MTSM.jpg",
+    "project_link": "https://mtsm2026.umn.edu/",
+    "paper_link": " ",
+    "description": "Understanding adsorption and solvation in confined porous materials requires a rigorous connection between microscopic interactions and macroscopic thermodynamic observables. In this study, we constructed a statistical mechanical framework to characterize adsorbate-zeolite interactions in hydrophilic pores of Ti-substituted FAU zeolites, highlighting the thermodynamic principles underlying solvation phenomena in confined environments. We considered a FAU network altered by Ti substitution and four OH- defect sites as indicative of hydrophilic environments that perturb local interaction fields and adsorption energetics. We particularly focused on the thermodynamics of adsorption. Toward this, we sampled the configurational space of the adsorbates within confined pore spaces to define the free energy landscape governing solvation. DFT calculations are used to compute valence electron density distributions, which are subsequently partitioned using density-derived electrostatic and chemical (DDEC) methods to generate atomic partial charge models. These charges define an effective statistical mechanical model for evaluating different parameters of solvation thermodynamics and were employed in classical molecular dynamics simulations using NPT and NVT ensembles performed in LAMMPS. Free energy perturbation methods were used to compute solvation free energies, followed by statistical sampling to break them down into enthalpic and entropic contributions. This work provides a detailed picture of solvation thermodynamics in FAU hydrophilic pore environment by showing how the interactions among solvent, zeolite, and adsorbate affect the thermodynamics of the whole system.",
+    "tags": ["FAU Zeolite", "Solvation thermodynamics", "CP2K", "LAMMPS", "Adsorption"]
+  },
+  {
+    "status": "Research Article",
     "status_colors": "bg-black-200 text-black-800",
     "year": "2026",
     "title": "Rational design of interface-coupled Nb-doped MoSe2/Nb2CTx MXene heterostructures with enriched active sites toward enhanced hydrogen evolution reaction",
@@ -13,7 +26,7 @@
     "tags": ["Nb-doped MoSe2", "Stacked Nb2CTx MXene", "Electrocatalysis", "Hydrogen Evolution Reaction (HER)"]
   },
   {
-    "status": "",
+    "status": "Review Article",
     "status_colors": "bg-black-200 text-black-800",
     "year": "2026",
     "title": "MOF-derived hollow (single-double-, triple-, and quadruple-shell) nanostructure for energy conversion and storage applications: A review",
@@ -26,7 +39,7 @@
     "tags": ["MOF", "MOF-Derived nanomaterials", "Single- and multiple-shells", "Hollow nanostructures", "Energy storage/conversion"]
   },
   {
-    "status": "",
+    "status": "Review Article",
     "status_colors": "bg-red-200 text-red-800",
     "year": "2025",
     "title": "A comprehensive review on MXenes for various applications",
@@ -39,7 +52,7 @@
     "tags": ["MXene", "Supercapacitors", "Batteries", "OER", "ORR", "HER"]
   },
   {
-    "status": "",
+    "status": "Research Article",
     "status_colors": "bg-green-100 text-green-800",
     "year": "2025",
     "title": "Enhanced Catalytic Performance via Ultrasonication‐Plasma Synergy in PtGaPCoOx Catalysts Under Mild Conditions",
@@ -51,7 +64,7 @@
     "tags": ["bi-components", " hydrogen evolution", "metals", "plasma", "ultrasonic"]
   },
   {
-    "status": "",
+    "status": "Research Article",
     "status_colors": "bg-purple-200 text-purple-800",
     "year": "2025",
     "title": "Synergistic interface of Nb-doped MoSe2 and NiTe heterostructure enables efficient electrocatalysis for hydrogen evolution",
@@ -64,7 +77,7 @@
     "tags": ["Nb-doped MoSe2", "Nickel telluride", "heterostructure", "Electrocatalysis"]
   },
   {
-    "status": "",
+    "status": "Review Article",
     "status_colors": "bg-green-100 text-green-800",
     "year": "2025",
     "title": "Emerging MXene/metal selenides for energy solutions: A comprehensive review",
@@ -77,7 +90,7 @@
 "tags": ["MXenes", "transition metal selenides", "supercapacitors", "batteries", "energy conversion"]
   },
   {
-    "status": "",
+    "status": "Research Article",
     "status_colors": "bg-green-100 text-green-800",
     "year": "2025",
     "title": "Ethyl xanthate-driven in situ synthesis of Ni-Fe sulfide@ Ti3C2Tx MXene hybrid electrodes for ultra-high-performance supercapacitors",
@@ -90,7 +103,7 @@
     "tags": ["MXene", "Nickel–iron sulfide", "Ethyl xanthate", "Asymmetric supercapacitor", "Redox-active material", "Charge-storage mechanism"]
   },
   {
-    "status": "",
+    "status": "Review Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Interface and surface engineering: The nexus of MXenes, MOFs, and AI in hybrid material design for energy storage/conversion",
@@ -103,7 +116,7 @@
     "tags": ["MOF@MXene", "Interface engineering", "Energy storage", "Energy conversion", "Artificial intelligence", "machine learning"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Synergistic Promotion and Enhanced Water Splitting in Mn, Co, Ni-Doped MoSe2/Mo2C Heterostructures via Doping and Interface Engineering",
@@ -116,7 +129,7 @@
     "tags": ["Transition-metal doping", "MoSe2/Mo2C heterostructure", "Water-splitting", "Electrocatalysis"]
   },
   {
-    "status": " ",
+    "status": "Review Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "MXene/transition metal sulfide composites in energy storage applications: A review",
@@ -129,7 +142,7 @@
     "tags": ["MXene", "Metal sulfide", "Experimental studies", "Composites", "Energy storage"]
   },
   {
-    "status": " ",
+    "status": "Review Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Practicality of MXenes: recent trends, considerations, and future aspects in supercapacitors",
@@ -142,7 +155,7 @@
     "tags": ["MXenes", "Supercapacitor", "Flexible and Wearable Electronics", "Practicality", "Enhancing voltage"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Vanadium-doped MoSe2 Nanosheets: Induced lattice contraction and enhanced conductivity for superior hydrogen evolution reaction",
@@ -155,7 +168,7 @@
     "tags": ["V-doped MoSe2", "Hydrogen evolution reaction", "Electrocatalysis", "Defect engineering", "Transition metal dichalcogenides"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Structural Engineering of Core–Shell Ni3B@Ni(BO2)2 on V2MoO8 (0D@2D/1D) Composites: Advanced Strategies for Enhancing High Energy Density in Asymmetric Supercapacitors",
@@ -168,7 +181,7 @@
     "tags": ["Metal-boride", "Metal-oxide", "Asymmetric supercapacitors", "Electrodes", "Energy storage"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Microwave-assisted facile synthesis of graphitic-C3N4/reduced graphene oxide/MoS2 composite as the bifunctional electrocatalyst for electrochemical water splitting",
@@ -181,7 +194,7 @@
     "tags": ["Graphitic-C3N4", "Reduced graphene oxide", "MoS2", "Hydrogen evolution reaction", "Oxygen evolution reaction"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2024",
     "title": "Confinement and synergy effects of supported-confined bimetal catalysts with superior stability and catalytic activity",
@@ -194,7 +207,7 @@
     "tags": ["Synergy", "Bimetal", "Catalyst", "Stability", "Activity"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2024",
     "title": "Copper-doped strontium metal-organic framework: Dual-function active material for supercapacitor and oxygen evolution reaction",
@@ -207,7 +220,7 @@
     "tags": ["Metal-organic frameworks", "Doping strategy", "Supercapacitors", "OER catalysts", "Synergistic effect"]
   },
   {
-    "status": " ",
+    "status": "Research Article",
     "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2024",
     "title": "Bifunctional MoC/NiC@N-doped reduced graphene oxide nano electrocatalyst for simultaneous production of hydrogen and oxygen through efficient overall electrochemical water splitting",
@@ -218,6 +231,97 @@
     "paper_link": "https://www-sciencedirect-com.proxy.lib.ohio-state.edu/science/article/pii/S2588842024000397",
     "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
     "tags": ["Electrocatalyst", "MoC/NiC", "N-doped reduced graphene oxide", "Carbide nanocomposite"]
+  },
+  {
+    "status": "Research Article",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Origin of the synergistic effects of bimetallic nanoparticles coupled with a metal oxide heterostructure for accelerating catalytic performance",
+    "authors": "Wail Al Zoubi, <b>Abdullah Al Mahmud</b>, Farah Hazmatulhaq, Mohammad R. Thalji,  Stefano Leoni, Jee-Hyun Kang, Young Gun Ko",
+    "conference": "SusMat",
+    "thumbnail": "media/origin.jpg",
+    "description": "Precisely tuning bicomponent intimacy during reactions by traditional methods remains a formidable challenge in the fabrication of highly active and stable catalysts because of the difficulty in constructing well-defined catalytic systems and the occurrence of agglomeration during assembly. To overcome these limitations, a PtRuPNiO@TiOx catalyst on a Ti plate was prepared by ultrasound-assisted low-voltage plasma electrolysis. This method involves the oxidation of pure Ti metal and co-reduction of strong metals at 3000°C, followed by sonochemical ultrasonication under ambient conditions in an aqueous solution. The intimacy of the bimetals in PtRuPNiO@TiOx is tuned, and the metal nanoparticles are uniformly distributed on the porous titania coating via strong metal‒support interactions by leveraging the instantaneous high-energy input from the plasma discharge and ultrasonic irradiation. The intimacy of PtRuPNiO@TiOx increases the electron density on the Pt surface. Consequently, the paired sites exhibit a high hydrogen evolution reaction activity (an overpotential of 220 mV at a current density of 10 mA cm−2 and Tafel slope of 186 mV dec−1), excellent activity in the hydrogenation of 4-nitrophenol with a robust stability for up to 20 cycles, and the ability to contrast stated catalysts without ultrasonication and plasma electrolysis. This study facilitates industrially important reactions through synergistic chemical interactions.",
+    "paper_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/sus2.216",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["Bimetals", "Nanoparticles", "Oxides", "Heterostructures", "Hydrogenation"]
+  },
+  {
+    "status": "Research Article",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Advancing the eradication of harmful dyes through stereolithography-produced 3D floating photocatalysis: Exploiting the synergistic potential of graphene/MnO2/Fe3O4 hybrid nanomaterials",
+    "authors": "Bhuvaneswari Kandasamy, <b>Abdullah Al Mahmud</b>, Jintae Lee, Imran Hasan,  Govindasamy Palanisamy",
+    "conference": "Surfaces and Interfaces",
+    "thumbnail": "media/surfaces.jpg",
+    "description": "The utilization of heterogeneous photocatalysis for the breakdown of organic pollutants in wastewater has become increasingly popular as an alternative treatment method, offering rapid mineralization of organic compounds. However, the challenges lie in the recycling and recovery processes. To overcome this hurdle, a novel 3D-printed hybrid photocatalyst composed of graphene/MnO2/Fe3O4 was developed through an ex-situ approach. Comprehensive property evaluations were conducted, and the catalyst was employed in the creation of a 3D photocatalyst designed for MB dye removal under direct sunlight, facilitating the easy separation of the used catalyst. Further enhancement of its photocatalytic activity was achieved through carbonization, rendering it promising for wastewater treatment owing to its ordered structure and facile recovery. Notably, the developed 3D photocatalyst exhibited a significant improvement in MB dye degradation compared to powder samples. It showcased effective degradation of 10 ppm of MB dye within a mere 120 min of sunlight exposure. Radical trapping analysis indicated that the high photocatalytic degradation was predominantly attributed to the photogenerated superoxide radicals. Consequently, the 3D-printed photocatalyst demonstrated exceptional reusability and sustained efficiency in MB dye degradation without any discernible decrease in catalytic activity. The augmented photocatalytic degradation was governed by the generation of photogenerated charge carriers through reduction and oxidation reactions. This research holds promise for the creation of an economical, user-friendly, and highly efficient 3D printed hybrid photocatalyst with synergistic applications in water purification.",
+    "paper_link": "https://www-sciencedirect-com.proxy.lib.ohio-state.edu/science/article/pii/S2468023024004619#abs0002",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["Floating photocatalyst", "Hybrid nanomaterial", "SLA printing", "3D printing", "Dye degradation"]
+  },
+  {
+    "status": "Research Article",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Improving the electrochemical performance of zinc sulfides by iron doping toward supercapacitor applications",
+    "authors": "Saad Gomaa Mohamed, Mona Mahmoud Morad, Masoom Raza Siddiqui, <b>Abdullah Al Mahmud</b>, Wail Al Zoubi",
+    "conference": "Advanced Materials Interfaces",
+    "thumbnail": "media/FeZnS.jpg",
+    "description": "The rational design of heterostructured Fe-doped ZnS microspheres (FeZnS-MS) and their use as electrode materials for supercapacitors (SCs) is proposed. FeZnS-MS are mounted on a Ni foam substrate to develop high-activity positive electrodes for SCs. The morphological and electrochemical performances of the hydrothermally synthesized FeZnS-MS are investigated, revealing the formation of microspherical Fe-doped ZnS nanocubes. Different Fe ratios (0.1, 0.2, and 0.3) are successfully introduced to ZnS without impurities, whereas two phases are produced when the percentage is increased to 0.4. Notably, under a current density of 2 A g−1, the Zn0.7Fe0.3S nanocomposite showed an exceptional specific capacitance of 575 F g−1, compared to the moderate value (200 F g−1) achieved by ZnS. At 0.5 and 1 A g−1, the Zn0.7Fe0.3S electrode presented an even better specific capacitance of 700 and 604.5 F g−1, respectively. Using this electrode, a hybrid supercapacitor system is developed and delivered 11 Wh kg−1 and a high specific power of 591.2 W kg−1.",
+    "paper_link": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202300790",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["Asymmetric supercapacitors", "Energy storage", "Fe-doping", "ZnS"]
+  },
+  {
+    "status": "Research Article",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2024",
+    "title": "Toxic congo red dye photodegradation employing green synthesis of zinc oxide nanoparticles using gum arabic",
+    "authors": "Huda S Alhasan, Alaa R Omran, <b>Abdullah Al Mahmud</b>, Amr Hussein Mady, Mohammad R Thalji",
+    "conference": "Water",
+    "thumbnail": "media/water.png",
+    "description": "A green synthesis method for producing zinc oxide nanoparticles (ZnO NPs) was presented using natural Gum Arabic (GA) as a natural stabilizing agent. For the first time, the as-synthesized ZnO NPs were employed to photodegrade the toxic Congo Red (CR) dye in an aqueous solution. The structural and morphological characterizations confirmed the successful synthesis of ZnO NPs. The ZnO NPs possessed an average crystallite size of 42.7 nm. In addition, it was found that a concentration of 20 mg L−1 of CR dye yielded the most favorable photodegradation results, and 4 mg mL−1 of the photocatalyst was the optimal amount. The results showed a maximum degradation percentage of 99.5% at pH 8 after 30 min of irradiation. This indicates that the as-synthesized ZnO NPs have remarkable photocatalytic properties. Moreover, the study demonstrated the suitability of the pseudo-first-order kinetic model for representing the photodegradation process through kinetic studies of the photocatalyst process of CR dye by ZnO NPs using the Langmuir-Hinshelwood (L-H) model.",
+    "paper_link": "https://www.mdpi.com/2073-4441/16/15/2202?utm_campaign=releaseissue_water&utm_medium=email&utm_source=releaseissue&utm_term=titlelink83#",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["zinc oxide", "Gum Arabic", "Green synthesis", "Congo red dye", "Photodegradation", "Langmuir-Hinshelwood (L-H) kinetic model"]
+  },
+  {
+    "status": "Conference Abstract",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2023",
+    "title": "Hydrogen Evolution Using a Highly Efficient MoS2-Carbon Nano-Onion Heterostructure Electrocatalyst",
+    "authors": "Jae-Jin Shim, Muhammed Shafi Parasseeri, <b>Abdullah Al Mahmud</b>",
+    "conference": "Electrochemical Society Meeting Abstracts 244",
+    "thumbnail": "media/water.png",
+    "description": "Hydrogen, a clean and sustainable energy source, can be produced by electrochemical water splitting using an electrocatalyst. However, developing an inexpensive, efficient catalyst for the hydrogen evolution reaction (HER) is a challenge, as it is difficult to obtain an electrocatalyst with a large accessible active surface. In this study, a sulfide of a non-noble metal, molybdenum, was employed as an electrocatalyst. Due to the restacking of 2D MoS2 layers, access to the active area was limited. This drawback of the 1T MoS2 catalyst was overcome by incorporating the carbon nano-onion (CNO). The unique MoS2-CNO heterostructure formed by growing a few-layered 2D 1T MoS2 on the CNO core facilitated smooth and barrier-free charge transfer through the heterojunction formation. This heterostructure mitigated restacking and maintained structural stability, providing a long-term high-performance catalyst. This MoS2-CNO exhibited an excellent HER performance with an overpotential of 53 mV vs. RHE and a Tafel slope of 40.8 mV dec-1 for over 25 h, showing it as one of the best HER catalysts, next to platinum. This study highlights a new, highly stable, highly performing non-noble metal catalyst for electrochemical water splitting applications.",
+    "paper_link": "https://iopscience.iop.org/article/10.1149/MA2023-02472354mtgabs/meta",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["MoS2", "Carbon-Nano-Onion", "Heterostructure", "Hydrogen evolution reaction"]
+  },
+  {
+    "status": "Research Article",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2023",
+    "title": "Micro-structured growth of 1, 2, 4-triazole by electro-polymerization for highly selective detection of gallic acid and uric acid",
+    "authors": "Deivasigamani Ranjith Kumar, Devaraj Manoj, Andreas Rosenkranz, <b>Abdullah Al Mahmud</b>, Jae-Jin Shim, S Philomina Mary, Subramanian Nellaiappan",
+    "conference": "Microchemical Journal",
+    "thumbnail": "media/microchemical.jpg",
+    "description": "The detection of gallic acid (GA) and uric acid (UA) is desirable due to their important role in various biological functions. However, their simultaneous detection is still challenging due to the mutual interference with similar oxidation potentials. Electro-grafted polymers on carbon electrode surfaces with desirable composition and structure can induce excellent selectivity towards their electrochemical detection. Herein, the present study aims at developing the electro-grafting of poly-3,5-diamino-1,2,4-triazole (DAT) on glassy carbon (GC) electrodes by controlled electro-polymerization. The presence of nitrogen-rich hydrazo bonds (–NH) in triazole can establish strong intramolecular interactions (N-H) with free OH (gallic acid) and quinone (uric acid) groups, which facilitate good selectivity at high mass transfer rates. This phenomenon was experimentally examined using differential pulse voltammetry, thus revealing a significant separation of potentials of about 110 mV, with peak potentials of E = 0.16 and 0.27 V for gallic and uric acid, respectively. Using electropolymerized triazole (p-DAT/GC) as a modified electrode, the sensing response for gallic and uric acid was found to be linear within a concentration range from 10 to 128 µM with a limit of detection (LOD) of about 2.8 and 1.5 µM. The p-DAT/GC electrode exhibited a good recovery range when used for realistic detection in human urine samples. Therefore, this work is a valuable toolkit for the detection of gallic and uric acid, thus paving the way for a wide range of opportunities regarding real-time detection in electrochemical sensing applications.",
+    "paper_link": "https://www.sciencedirect.com/science/article/abs/pii/S0026265X23009943",
+    "project_link": "https://www.projectaria.com/datasets/reading-in-the-wild/",
+    "tags": ["MoS2", "Carbon-Nano-Onion", "Heterostructure", "Hydrogen evolution reaction"]
+  },
+  {
+    "status": "Oral Presentation",
+    "status_colors": "bg-yellow-100 text-yellow-800",
+    "year": "2023",
+    "title": "Polypyrrole assisted preparation of γ-MoC/NiC composite with reduced graphene oxide for overall electrochemical water splitting",
+    "authors": "<b>Abdullah Al Mahmud</b>, Mohammad R. Thalji Jae-Jin Shim",
+    "conference": "1st International Conference on Advanced Materials & Sustainable Energy Technologies-2023 (AMSET)",
+    "thumbnail": "media/amset.png",
+    "description": "Nonprecious transition metal electrocatalysts are cost-enabled, have high catalytic performance, and are scalable for energy production via water splitting. We used the strategy of linking functional components into a hybrid heterostructure to boost the synergistic effects of the single metal carbides. In this work, the thermal pyrolysis approach is used to synthesize a heterointerface of carbon-wrapped N-rich γ-MoC/NiC composite with rGO based on the polymerization of NiMoO4 nanorods and pyrrole monomer. At a current density of 10 mA/cm2, MoC/NiC@rGO has an overpotential of 185 mV for HER and 295 mV for OER, as well as a low Tafel slope of 78 mV/dec for HER and 105 mV/dec for OER. To catalyze the HER and OER in a two-electrode cell for overall water splitting, γ-MoC/NiC@rGO achieves 10 mA/cm2 at a low cell voltage of 1.52 V and shows 60 h stability in a chrono-potentiometric test. This work offers a metal carbide composite structure methodology to prepare noble-metal-free bifunctional electrocatalysts for enhancing electrochemical water splitting.",
+    "paper_link": " ",
+    "project_link": "https://sunwayuniversity.edu.my/amset2023",
+    "tags": ["γ-MoC/NiC", "Oxygen evolution reaction", "Hydrogen evolution reaction", "Carbide composite"]
   }
 ]
 
