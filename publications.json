@@ -1,7 +1,7 @@
 [
   {
     "status": "Oral Presentation",
-    "status_colors": "bg-black-200 text-black-800",
+    "status_colors": "bg-green-200 text-green-800",
     "year": "2026",
     "title": "Unraveling Adsorption Hydrophilic FAU Zeolites: Coupling DFT-Derived Charge Distributions with Statistical Mechanical Simulations",
     "authors": "<b>Abdullah Al Mahmud</b>, Rachel B. Getman",
@@ -14,7 +14,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-black-200 text-black-800",
+    "status_colors": "bg-purple-200 text-purple-800",
     "year": "2026",
     "title": "Rational design of interface-coupled Nb-doped MoSe2/Nb2CTx MXene heterostructures with enriched active sites toward enhanced hydrogen evolution reaction",
     "authors": "Ramaraj Sukanya, Raj Karthik, <b>Abdullah Al Mahmud</b>, Eithne Dempsey, Deivasigamani Ranjith Kumar, Carmel B. Breslin, Jae-Jin Shim",
@@ -27,7 +27,7 @@
   },
   {
     "status": "Review Article",
-    "status_colors": "bg-black-200 text-black-800",
+    "status_colors": "bg-yellow-200 text-yellow-800",
     "year": "2026",
     "title": "MOF-derived hollow (single-double-, triple-, and quadruple-shell) nanostructure for energy conversion and storage applications: A review",
     "authors": "Iftikhar Hussain, <b>Abdullah Al Mahmud</b>, Muhammad Nazim Lakhan, Awais Ali, Mohd Shkir, P. Rosaiah, Ganesh Dhakal, Muhammad Zubair Khan, Syed Rizwan, Ali Asghar, Bhargav Akkinepally, Muhammad Faizan, Shrikanth Narayanan",
@@ -78,7 +78,7 @@
   },
   {
     "status": "Review Article",
-    "status_colors": "bg-green-100 text-green-800",
+    "status_colors": "bg-yellow-100 text-yellow-800",
     "year": "2025",
     "title": "Emerging MXene/metal selenides for energy solutions: A comprehensive review",
     "authors": "Syed Adil Shah, Abdul Hameed Pato, Sahil Jangra, <b>Abdullah Al Mahmud</b>, Imran Haider Sajid, P Rosaiah, Karanpal Singh, Hari Bandi, Muhammd Zubair Khan, Mohd Shkir, Syed Rizwan, Tensangmu Lama Tamang, Iftikhar Hussain",
@@ -117,7 +117,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-purple-100 text-purple-800",
     "year": "2025",
     "title": "Synergistic Promotion and Enhanced Water Splitting in Mn, Co, Ni-Doped MoSe2/Mo2C Heterostructures via Doping and Interface Engineering",
     "authors": "<b>Abdullah Al Mahmud</b>, Ramaraj Sukanya, Raj Karthik, Deivasigamani Ranjith Kumar,  Carmel B Breslin, Jae-Jin Shim",
@@ -143,7 +143,7 @@
   },
   {
     "status": "Review Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-green-100 text-green-800",
     "year": "2025",
     "title": "Practicality of MXenes: recent trends, considerations, and future aspects in supercapacitors",
     "authors": "Iftikhar Hussain, <b>Abdullah Al Mahmud</b>, Sabarison Pandiyarajan, Karanpal Singh, Essam H Ibrahim, Pritam J Morankar,  Sajjad Hussain, P Rosaiah, Muhammad Zubair Khan, Zeeshan Ajmal, Bhargav Akkinepally, Ho-Chiao Chuang, Kaili Zhang",
@@ -169,7 +169,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-purple-100 text-purple-800",
     "year": "2025",
     "title": "Structural Engineering of Core–Shell Ni3B@Ni(BO2)2 on V2MoO8 (0D@2D/1D) Composites: Advanced Strategies for Enhancing High Energy Density in Asymmetric Supercapacitors",
     "authors": "Ahamed Milton, <b>Abdullah Al Mahmud</b>, Ramaraj Sukanya, Raj Karthik, Eswaran Kamaraj, Carmel B Breslin, P Muhammed Shafi, Jae-Jin Shim",
@@ -182,7 +182,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-green-100 text-green-800",
     "year": "2025",
     "title": "Microwave-assisted facile synthesis of graphitic-C3N4/reduced graphene oxide/MoS2 composite as the bifunctional electrocatalyst for electrochemical water splitting",
     "authors": "Sumanta Sahoo, <b>Abdullah Al Mahmud</b>, Ankur Sood, Ganesh Dhakal, Santosh K Tiwari, Sunmi Zo, Hong Mi Kim, Sung Soo Han",
@@ -208,7 +208,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-green-100 text-green-800",
     "year": "2024",
     "title": "Copper-doped strontium metal-organic framework: Dual-function active material for supercapacitor and oxygen evolution reaction",
     "authors": "<b>Abdullah Al Mahmud</b>, Azad H Alshatteri, Huda S Alhasan, Wail Al Zoubi,  Khalid M Omer, Mohammad R Thalji",
@@ -221,7 +221,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-purple-100 text-purple-800",
     "year": "2024",
     "title": "Bifunctional MoC/NiC@N-doped reduced graphene oxide nano electrocatalyst for simultaneous production of hydrogen and oxygen through efficient overall electrochemical water splitting",
     "authors": "<b>Abdullah Al Mahmud</b>, Mohammad R Thalji, Ganesh Dhakal, Yuvaraj Haldorai, Woo Kyoung Kim, Jae-Jin Shim",
@@ -247,7 +247,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-green-100 text-green-800",
     "year": "2024",
     "title": "Advancing the eradication of harmful dyes through stereolithography-produced 3D floating photocatalysis: Exploiting the synergistic potential of graphene/MnO2/Fe3O4 hybrid nanomaterials",
     "authors": "Bhuvaneswari Kandasamy, <b>Abdullah Al Mahmud</b>, Jintae Lee, Imran Hasan,  Govindasamy Palanisamy",
@@ -260,7 +260,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-purple-100 text-purple-800",
     "year": "2024",
     "title": "Improving the electrochemical performance of zinc sulfides by iron doping toward supercapacitor applications",
     "authors": "Saad Gomaa Mohamed, Mona Mahmoud Morad, Masoom Raza Siddiqui, <b>Abdullah Al Mahmud</b>, Wail Al Zoubi",
@@ -286,7 +286,7 @@
   },
   {
     "status": "Conference Abstract",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-green-100 text-green-800",
     "year": "2023",
     "title": "Hydrogen Evolution Using a Highly Efficient MoS2-Carbon Nano-Onion Heterostructure Electrocatalyst",
     "authors": "Jae-Jin Shim, Muhammed Shafi Parasseeri, <b>Abdullah Al Mahmud</b>",
@@ -299,7 +299,7 @@
   },
   {
     "status": "Research Article",
-    "status_colors": "bg-yellow-100 text-yellow-800",
+    "status_colors": "bg-purple-100 text-purple-800",
     "year": "2023",
     "title": "Micro-structured growth of 1, 2, 4-triazole by electro-polymerization for highly selective detection of gallic acid and uric acid",
     "authors": "Deivasigamani Ranjith Kumar, Devaraj Manoj, Andreas Rosenkranz, <b>Abdullah Al Mahmud</b>, Jae-Jin Shim, S Philomina Mary, Subramanian Nellaiappan",
