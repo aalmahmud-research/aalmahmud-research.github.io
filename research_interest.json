@@ -1,8 +1,8 @@
 [
   {
-    "name": "Egocentric AI",
-    "description": "Developing AI systems that understand the world from a first-person perspective, enabling applications in AR and robotics.",
-    "image": "media/aria.jpg"
+    "name": "Density Functional Theory & Molecular Dynamics",
+    "description": "Bridging quantum and atomistic scales to model structure, energetics, and dynamics",
+    "image": "media/DFT-MD.png"
   },
   {
     "name": "Multi-Modal LLM",
