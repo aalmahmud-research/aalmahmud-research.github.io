@@ -5,18 +5,18 @@
     "image": "media/DFT-MD.png"
   },
   {
-    "name": "Multi-Modal LLM",
-    "description": "Exploring the fusion of text, images, and audio to build more comprehensive and context-aware language models.",
-    "image": "media/multi_llm.png"
+    "name": "Computational Catalysis",
+    "description": "Probing active sites, reaction pathways, and energy barriers from first principles",
+    "image": "media/catalysis.png"
   },
   {
-    "name": "Speech Recognition",
-    "description": "Improving the accuracy and robustness of speech-to-text systems, especially in noisy and diverse environments.",
-    "image": "media/sr.webp"
+    "name": "Solvation Thermodynamics of Zeolites",
+    "description": "Thermodynamic behavior of confined solvent and zeolite–adsorbate interactions in nanoporous frameworks for hydrophilic and hydrophobic pores",
+    "image": "media/solvation.png"
   },
   {
-    "name": "AI in Healthcare",
-    "description": "Integrating Artificial Intelligence with the Internet of Things to create smarter, more efficient, and Healthcare systems.",
-    "image": "media/ai_health.png"
+    "name": "Water Splitting",
+    "description": "Designing bifunctional catalysts for simultaneous H<sub>2</sub> and O<sub>2</sub> evolution from electrochemical water splitting",
+    "image": "media/water-splitting.png"
   }
 ]
