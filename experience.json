@@ -1,68 +1,54 @@
 [
   {
-    "title": "Applied Science Intern",
-    "company": "Microsoft",
-    "logo": "media/microsoft.png",
-    "period": "May 2026 - August 2026",
-    "location": "Redmond, WA",
-    "details": [
-      "Working on LLM Agent for Powerpoint presentation generation.",
-      "Reducing inference COGS by model routing and prompt caching.",
-      "Knowledge distillation to train a compact student model."
-    ],
-    "skills": ["LLM Agent", "Reinforcement Learning"]
-  },
-  {
-    "title": "Research Intern",
-    "company": "Microsoft",
-    "logo": "media/microsoft.png",
-    "period": "June 2025 - August 2025",
-    "location": "Mountain View, CA",
-    "details": [
-      "Design a Neural Audio Codec that disentangles speaker identity.",
-      "Achieved 95% improvement of Equal Error Rate.",
-      "Fine-tune a LLM-based Automatic Speech Recognition System."
-    ],
-    "skills": ["Automated Speech Recognition", "Neural Audio Codec"]
-  },
-  {
-    "title": "Graduate Research Assistant",
+    "title": "Graduate Research Assistant (GRA)",
     "company": "The Ohio State University",
     "logo": "media/OSU.png",
-    "period": "2023 - present",
+    "period": "2025 - Present",
     "location": "Columbus, OH, USA",
     "details": [
-      "Multi-modal reading dataset of 100 hours of egocentric videos.",
-      "Medical QA Assistant using Retrieval-Augmented Generation",
-      "Multimodal Foundation Model for Respiratory Health Diagnosis"
+      "Contributions of rotational flexibility of adsorbates in solvation thermodynamics of zeolites",
+      "Solvation thermodynamics in microporous zeolite networks for solvent-mediated interactions using multi-scale modeling and quantum calculations",
+      "First principles and machine learning approaches to improve thermodynamic properties of zeolites"
     ],
-    "skills": ["Egocentric AI", "Multi-modal LLM", "NLP"]
+    "skills": ["CP2K", "LAMMPS", "Avogadro", "VESTA", "Jmol", "OVITO", "VMD", "GaussView"]
   },
   {
-    "title": "Machine Learning Engineer",
-    "company": "ACI Limited",
-    "logo": "media/aci.png",
-    "period": "October 2021 - August 2023",
-    "location": "Dhaka, Bangladesh",
+    "title": "Graduate Research Assistant (GRA)",
+    "company": "Yeungnam University",
+    "logo": "media/YU.png",
+    "period": "March 2022 - March 2024",
+    "location": "Gyeongsan, South Korea",
     "details": [
-      "Person re-identification and tracking using CCTV camera.",
-      "Facial Recognition based automatic attendance system.",
-      "Voice Controlled Conversational Chatbot."
+      "Transitional multi-metallic carbide composites with graphene oxide using polymerization and carbonization",
+      "Copper-doped strontium metal-organic framework for oxygen evolution reaction and energy supercapacitor applications",
+      "Multi-metal doped carbide-selenide composites for high efficiency water splitting",
+      "Bimetallic sulfide composite with Ti3C2Tx MXene for high-performance supercapacitor applications",
+      "Metal-boride composite with metal-oxide for high-performance asymmetric Supercapacitors"
     ],
-    "skills": ["Computer Vision", "Automated Speech Recognition"]
+    "skills": ["Electrochemical Analyses", "CasaXPS", "XPSPeak41", "Solvothermal", "Calcination", "Etching", "Polymerization", "Carbonization", "X'Pert Highscore", "ImageJ", "Digital Micrograph"]
   },
   {
-    "title": "Research and Development Executive",
-    "company": "Spectrum Engineering Consortium Limited",
-    "logo": "media/spectrum.jpg",
-    "period": "April 2021 - September 2021",
-    "location": "Dhaka, Bangladesh",
+    "title": "Graduate Teaching Assistant (GTA)",
+    "company": "Yeungnam University",
+    "logo": "media/YU.png",
+    "period": "March 2022 - August 2023",
+    "location": "Gyeongsan, South Korea",
     "details": [
-      "Developed a prototype of a low-cost mobile device.",
-      "Worked on developing a EOD Robot.",
-      "PCB Design"
+      "Theoretical Course – Chemical Engineering Thermodynamics I, Fluid Mechanics",
+      "Laboratory Course – Chemical Engineering Thermodynamics Lab (lab coordinator)"
     ],
-    "skills": ["Robotics", "Microcontroller"]
+    "skills": ["Teaching", "Grading", "Proctoring", "Coordinating"]
+  },
+  {
+    "title": "Undergraduate Intern",
+    "company": "Eastern Refinery PLC",
+    "logo": "media/erl.jpg",
+    "period": "April 2019 - April 2019",
+    "location": "Chattogram, Bangladesh",
+    "details": [
+      "Undergraduate Intern for two weeks at the end of junior year",
+    ],
+    "skills": ["Teamwork", "Designing", "Problem Solving"]
   }
 ]
 
