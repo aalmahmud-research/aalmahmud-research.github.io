@@ -37,6 +37,7 @@
       "Theoretical Course – Chemical Engineering Thermodynamics I, Fluid Mechanics",
       "Laboratory Course – Chemical Engineering Thermodynamics Lab (lab coordinator)"
     ],
+    "badge": "Teaching",
     "skills": ["Teaching", "Grading", "Proctoring", "Coordinating"]
   },
   {
@@ -48,6 +49,7 @@
     "details": [
       "Undergraduate Intern for two weeks at the end of junior year"
     ],
+    "badge": "Intern",
     "skills": ["Teamwork", "Designing", "Problem Solving"]
   }
 ]
