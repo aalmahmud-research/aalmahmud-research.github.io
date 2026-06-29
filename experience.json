@@ -11,7 +11,7 @@
       "First principles and machine learning approaches to improve thermodynamic properties of zeolites"
     ],
     "badge": "Work",
-    "skills": ["CP2K", "LAMMPS", "Avogadro", "VESTA", "Jmol", "OVITO", "VMD", "GaussView"]
+    "skills": ["CP2K", "LAMMPS", "Atomistic Modeling", "Avogadro", "VESTA", "Jmol", "OVITO", "VMD", "GaussView"]
   },
   {
     "title": "Graduate Research Assistant (GRA)",
@@ -23,11 +23,11 @@
       "Transitional multi-metallic carbide composites with graphene oxide using polymerization and carbonization",
       "Copper-doped strontium metal-organic framework for oxygen evolution reaction and energy supercapacitor applications",
       "Multi-metal doped carbide-selenide composites for high efficiency water splitting",
-      "Bimetallic sulfide composite with Ti3C2Tx MXene for high-performance supercapacitor applications",
+      "Bimetallic sulfide composite with Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub> MXene for high-performance supercapacitor applications",
       "Metal-boride composite with metal-oxide for high-performance asymmetric Supercapacitors"
     ],
     "badge": "Work",
-    "skills": ["Electrochemical Analyses", "CasaXPS", "XPSPeak41", "Solvothermal", "Calcination", "Etching", "Polymerization", "Carbonization", "X'Pert Highscore", "ImageJ", "Digital Micrograph"]
+    "skills": ["Electrochemical Analyses", "Potentiostat", "Tube Furnace", "CasaXPS", "XPSPeak41", "Solvothermal", "Calcination", "Etching", "Polymerization", "Carbonization", "X'Pert Highscore", "ImageJ", "Digital Micrograph"]
   },
   {
     "title": "Graduate Teaching Assistant (GTA)",
