@@ -10,6 +10,7 @@
       "Solvation thermodynamics in microporous zeolite networks for solvent-mediated interactions using multi-scale modeling and quantum calculations",
       "First principles and machine learning approaches to improve thermodynamic properties of zeolites"
     ],
+    "badge": "Work",
     "skills": ["CP2K", "LAMMPS", "Avogadro", "VESTA", "Jmol", "OVITO", "VMD", "GaussView"]
   },
   {
@@ -25,6 +26,7 @@
       "Bimetallic sulfide composite with Ti3C2Tx MXene for high-performance supercapacitor applications",
       "Metal-boride composite with metal-oxide for high-performance asymmetric Supercapacitors"
     ],
+    "badge": "Work",
     "skills": ["Electrochemical Analyses", "CasaXPS", "XPSPeak41", "Solvothermal", "Calcination", "Etching", "Polymerization", "Carbonization", "X'Pert Highscore", "ImageJ", "Digital Micrograph"]
   },
   {
@@ -51,6 +53,18 @@
     ],
     "badge": "Intern",
     "skills": ["PBD", "PFD", "P&ID", "Teamwork", "Designing", "Problem Solving", "Report Submission"]
+  },
+  {
+    "title": "Undergraduate Research",
+    "company": "Bio and Environmental Technology (BET) Research Group",
+    "logo": "media/bet.webp",
+    "period": "June 2019 - February 2021",
+    "location": "Dhaka - 1000, Bangladesh",
+    "details": [
+      "Worked on my undergraduate thesis and two other projects with MS students"
+    ],
+    "badge": "Work",
+    "skills": ["Research", "Spectrophotometer", "BOD", "COD", "DO", "TDS", "TSS"]
   }
 ]
 
