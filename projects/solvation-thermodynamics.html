@@ -1,6 +1,43 @@
-<!-- ===== Title + stacks ===== -->
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solvation Thermodynamics in BEA and FAU Zeolites - Abdullah Al Mahmud</title>
+    <link rel="icon" type="image/png" href="../media/osu_logo.png">
+    <script src="../assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-heading {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-glow { transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+        .card-glow:hover { border-color: #bfdbfe; box-shadow: 0 8px 32px rgba(59,130,246,0.14); }
+        header { transition: box-shadow 0.3s ease; }
+        header.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.07); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to portfolio
+            </a>
+            <a href="../index.html#projects" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">All projects</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+
+        <!-- Title + stacks -->
         <div class="text-center mb-8">
-            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Current Project</p>
+            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Project · Ongoing</p>
             <h1 class="text-4xl md:text-5xl font-bold gradient-heading leading-tight">Solvation Thermodynamics in BEA and FAU Zeolites</h1>
             <div class="flex justify-center items-center gap-1.5 mt-3">
                 <div class="h-px w-8 bg-gradient-to-r from-transparent to-blue-400 rounded-full"></div>
@@ -16,13 +53,13 @@
             </div>
         </div>
 
-        <!-- ===== Hero image (EDIT src) ===== -->
-        <div class="max-w-[250px] mx-auto mb-10">
-      <img src="../media/solvation.png" alt="Solvation in zeolite frameworks"
-           class="w-full h-64 object-cover rounded-2xl border border-gray-200 shadow-sm">
-      </div>
+        <!-- Hero image (smaller: capped width + height) -->
+        <div class="max-w-md mx-auto mb-10">
+            <img src="../media/solvation.png" alt="Solvation in zeolite frameworks"
+                 class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+        </div>
 
-        <!-- ===== Overview ===== -->
+        <!-- Overview -->
         <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
             <h2 class="text-2xl font-bold text-gray-900 mb-3">Overview</h2>
             <p class="text-gray-700 leading-relaxed text-justify">
@@ -36,7 +73,7 @@
             </p>
         </section>
 
-        <!-- ===== Why it matters ===== -->
+        <!-- Why it matters -->
         <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
             <h2 class="text-2xl font-bold text-gray-900 mb-3">Why It Matters</h2>
             <p class="text-gray-700 leading-relaxed text-justify mb-4">
@@ -51,7 +88,7 @@
             </ul>
         </section>
 
-        <!-- ===== Approach (multiscale) ===== -->
+        <!-- Approach -->
         <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
             <h2 class="text-2xl font-bold text-gray-900 mb-3">Approach: Multiscale Modeling</h2>
             <p class="text-gray-700 leading-relaxed text-justify mb-4">
@@ -66,7 +103,7 @@
             </ul>
         </section>
 
-        <!-- ===== Current status (EDIT with your real progress) ===== -->
+        <!-- Current status -->
         <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-10">
             <h2 class="text-2xl font-bold text-gray-900 mb-3">Current Status</h2>
             <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
@@ -75,3 +112,24 @@
                 <li>Comparing confinement effects between the two frameworks. <i>(Edit with your latest findings.)</i></li>
             </ul>
         </section>
+
+        <div class="text-center mt-8">
+            <a href="../index.html#projects" class="inline-flex items-center gap-2 text-blue-600 hover:underline font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to all projects
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-8">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy; 2026 Abdullah Al Mahmud. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 10); });
+    </script>
+</body>
+</html>
