@@ -1,10 +1,10 @@
 [
   {
-    "name": "Person re-identification and Tracking",
-    "image": "media/person_reid.gif",
-    "stacks": ["Yolov5", "Pytorch", "Django"],
-    "github_link": "https://github.com/your-username/your-repo",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/person-re-id?authuser=0"
+    "name": "Solvation Thermodynamics of Zeolites",
+    "image": "media/nvt-zeolites.gif",
+    "stacks": ["Solvation", "Zeolites", "Adsorption"],
+    "github_link": " ",
+    "details_page": "projects/solvation-thermodynamics.html"
   },
   {
     "name": "Automated Attendance System using Face Recognition",
