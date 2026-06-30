@@ -37,7 +37,7 @@
 
         <!-- Title + stacks -->
         <div class="text-center mb-8">
-            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Project · Ongoing</p>
+            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Ongoing · Project</p>
             <h1 class="text-4xl md:text-5xl font-bold gradient-heading leading-tight">Solvation Thermodynamics in BEA and FAU Zeolites</h1>
             <div class="flex justify-center items-center gap-1.5 mt-3">
                 <div class="h-px w-8 bg-gradient-to-r from-transparent to-blue-400 rounded-full"></div>
@@ -96,11 +96,15 @@
                 solvent molecules. The work therefore combines methods across scales:
             </p>
             <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
-                <li><b>Density Functional Theory (DFT)</b> &mdash; accurate adsorbate&ndash;framework interactions and reaction energetics at active sites.</li>
-                <li><b>Molecular Dynamics (MD)</b> &mdash; sampling of solvent configurations and dynamics inside the pores to capture entropy and ensemble averages.</li>
+                <li><b>Density Functional Theory (DFT)</b> &mdash; accurate adsorbate&ndash;framework interactions and reaction energetics at active sites using CP2K DFT package.</li>
+                <li><b>Molecular Dynamics (MD)</b> &mdash; sampling of solvent configurations and dynamics inside the pores to capture entropy and ensemble averages in LAMMPS and GROMACS.</li>
                 <li><b>Free-energy / solvation analysis</b> &mdash; extracting solvation free energies and thermodynamic contributions from the simulations.</li>
                 <li><b>Multiple adsorbates</b> &mdash; studying a range of probe molecules to map how chemistry and size affect solvation across both frameworks.</li>
             </ul>
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/multiscale.png" alt="Multiscale modeling approach"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
         </section>
 
         <!-- Current status -->
@@ -109,7 +113,7 @@
             <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
                 <li>Building and validating BEA and FAU framework models with adsorbates and explicit solvent.</li>
                 <li>Running DFT and MD calculations to quantify solvation free energies across systems.</li>
-                <li>Comparing confinement effects between the two frameworks. <i>(Edit with your latest findings.)</i></li>
+                <li>Comparing confinement effects between the two zeolite frameworks.</li>
             </ul>
         </section>
 
