@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Material Composites for Overall Water Splitting - Abdullah Al Mahmud</title>
+    <link rel="icon" type="image/png" href="../media/osu_logo.png">
+    <script src="../assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-heading {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-glow { transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+        .card-glow:hover { border-color: #bfdbfe; box-shadow: 0 8px 32px rgba(59,130,246,0.14); }
+        header { transition: box-shadow 0.3s ease; }
+        header.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.07); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to portfolio
+            </a>
+            <a href="../index.html#projects" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">All projects</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+
+        <!-- Title + stacks -->
+        <div class="text-center mb-8">
+            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Project</p>
+            <h1 class="text-4xl md:text-5xl font-bold gradient-heading leading-tight">2D Material Composites for Overall Water Splitting</h1>
+            <div class="flex justify-center items-center gap-1.5 mt-3">
+                <div class="h-px w-8 bg-gradient-to-r from-transparent to-blue-400 rounded-full"></div>
+                <div class="h-1.5 w-1.5 bg-blue-500 rounded-full"></div>
+                <div class="h-px w-8 bg-gradient-to-l from-transparent to-blue-400 rounded-full"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Reduced Graphene Oxide</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">2D Materials</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Bifunctional Electrocatalyst</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">HER &amp; OER</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Water Splitting</span>
+            </div>
+        </div>
+
+        <!-- Hero image 1 (EDIT src) -->
+        <div class="max-w-md mx-auto mb-10">
+            <img src="../media/microwave.jpg" alt="rGO-based bifunctional electrocatalyst"
+                 class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+        </div>
+
+        <!-- Overview -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Overview</h2>
+            <p class="text-gray-700 leading-relaxed text-justify">
+                Hydrogen produced by electrochemical water splitting is a clean, carbon-free fuel, but its
+                large-scale adoption depends on catalysts that are efficient, durable, and inexpensive. Splitting
+                water requires two reactions at once &mdash; the <b>hydrogen evolution reaction (HER)</b> at the
+                cathode and the <b>oxygen evolution reaction (OER)</b> at the anode. This project develops
+                <b>bifunctional electrocatalysts</b> built on the two-dimensional support
+                <b>reduced graphene oxide (rGO)</b>, which drive both reactions efficiently in a single
+                electrolyzer and reduce reliance on scarce precious-metal catalysts.
+            </p>
+        </section>
+
+        <!-- Why 2D materials / rGO -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Why Reduced Graphene Oxide?</h2>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                Two-dimensional reduced graphene oxide is an ideal scaffold for water-splitting catalysts because
+                its structure directly addresses the main limitations of conventional electrode materials:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>High conductivity</b> &mdash; the graphene network provides fast electron transport to and from active sites.</li>
+                <li><b>Large surface area</b> &mdash; the 2D sheets expose abundant sites and anchor the active phase.</li>
+                <li><b>Anti-aggregation support</b> &mdash; nanoparticles stay well dispersed instead of clumping, preserving activity over time.</li>
+                <li><b>Heteroatom doping</b> &mdash; nitrogen doping tunes the electronic structure and creates additional catalytically active sites.</li>
+            </ul>
+        </section>
+
+        <!-- Composite systems studied -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Composite Systems</h2>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                Several rGO-based composites were synthesized and tested as bifunctional catalysts for overall
+                water splitting:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>MoC/NiC @ N-doped rGO</b> &mdash; a bimetallic carbide composite anchored on nitrogen-doped reduced graphene oxide for simultaneous hydrogen and oxygen production.</li>
+                <li><b>graphitic-C<sub>3</sub>N<sub>4</sub> / rGO / MoS<sub>2</sub></b> &mdash; a ternary composite synthesized through a fast, microwave-assisted route, acting as a bifunctional electrocatalyst for water splitting.</li>
+                <li>Both systems pair an active transition-metal phase with the conductive rGO support to enhance HER and OER performance together.</li>
+            </ul>
+            <!-- Image 2 (EDIT src) -->
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/bifunctional.png" alt="rGO composite synthesis and structure"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
+        </section>
+
+        <!-- Approach -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Approach</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>Synthesis</b> &mdash; hydrothermal and microwave-assisted routes to grow the active phase directly on rGO sheets.</li>
+                <li><b>Characterization</b> &mdash; XRD, XPS, FE-SEM, and TEM to confirm composition, structure, and morphology.</li>
+                <li><b>Electrochemical testing</b> &mdash; HER and OER performance measured through overpotential, Tafel slope, and long-term stability.</li>
+                <li><b>Overall water splitting</b> &mdash; the best catalysts assembled into a two-electrode cell to drive both reactions simultaneously.</li>
+            </ul>
+        </section>
+
+        <!-- Key outcomes -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Key Outcomes</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Bifunctional activity for both HER and OER from a single rGO-supported catalyst.</li>
+                <li>Improved efficiency and stability compared with the active phase alone, attributed to the conductive 2D support.</li>
+                <li>Demonstrated low-cost, scalable synthesis routes for practical overall water splitting.</li>
+            </ul>
+        </section>
+
+        <!-- Related publications -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Related Publications</h2>
+            <ul class="space-y-3 text-gray-700 leading-relaxed">
+                <li>
+                    Bifunctional MoC/NiC@N-doped reduced graphene oxide nano electrocatalyst for simultaneous production of hydrogen and oxygen through efficient overall electrochemical water splitting. &mdash;
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S2588842024000397" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">View paper</a>
+                </li>
+                <li>
+                    Microwave-assisted facile synthesis of graphitic C<sub>3</sub>N<sub>4</sub>/reduced graphene oxide/MoS<sub>2</sub> composite as the bifunctional electrocatalyst for electrochemical water splitting. &mdash;
+                    <a href="https://www.sciencedirect.com/science/article/pii/S2468217924001746" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">View paper</a>
+                </li>
+            </ul>
+        </section>
+
+        <div class="text-center mt-8">
+            <a href="../index.html#projects" class="inline-flex items-center gap-2 text-blue-600 hover:underline font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to all projects
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-8">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy; 2026 Abdullah Al Mahmud. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 10); });
+    </script>
+</body>
+</html>
