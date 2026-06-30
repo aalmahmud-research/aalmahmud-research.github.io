@@ -3,7 +3,6 @@
     "name": "Solvation Thermodynamics of Zeolites",
     "image": "media/nvt-zeolites.gif",
     "stacks": ["Solvation", "Zeolites", "Adsorption"],
-    "github_link": " ",
     "details_page": "projects/solvation-thermodynamics.html"
   },
   {
