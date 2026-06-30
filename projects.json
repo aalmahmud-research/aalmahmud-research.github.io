@@ -6,11 +6,10 @@
     "details_page": "projects/solvation-thermodynamics.html"
   },
   {
-    "name": "Automated Attendance System using Face Recognition",
-    "image": "media/face_rec.gif",
-    "stacks": ["PyTorch", "OpenCV", "RetinaFace"],
-    "github_link": "https://github.com/your-username/your-repo",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/automated-attendance-system-using-facial-recognition?authuser=0"
+    "name": "2D Material Composites for Water Splitting",
+    "image": "media/rGO.jpg",
+    "stacks": ["Graphene Oxide", "Reduced Graphene Oxide", "Water Splitting"],
+    "details_page": "projects/2D_materials.html"
   },
   {
     "name": "Customer Heatmap",
