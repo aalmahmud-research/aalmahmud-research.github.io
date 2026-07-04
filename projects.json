@@ -12,11 +12,10 @@
     "details_page": "projects/2D_materials.html"
   },
   {
-    "name": "Customer Heatmap",
-    "image": "media/heatmap.gif",
-    "stacks": ["OpenCV", "PyTorch", "Django"],
-    "github_link": "",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/heatmap?authuser=0"
+    "name": "Energy Storage and Conversion",
+    "image": "media/storage_conversion.png",
+    "stacks": ["HER", "OER", "OWS", "Supercapacitor", "Batteries"],
+    "details_page": "projects/energy_storage_conversion.html"
   },
   {
     "name": "Voice Controlled Chatbot",
