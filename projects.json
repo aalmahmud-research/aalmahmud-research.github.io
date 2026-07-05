@@ -18,11 +18,10 @@
     "details_page": "projects/energy_storage_conversion.html"
   },
   {
-    "name": "Voice Controlled Chatbot",
-    "image": "media/aci_chatbot.png",
-    "stacks": ["RASA", "GTTS"],
-    "github_link": "https://github.com/your-username/your-repo",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/chatbot?authuser=0"
+    "name": "MXene Based Composites for Energy Storage and Conversion",
+    "image": "media/MXene-composites.png",
+    "stacks": ["MXene", "Composites", "Water Splitting", "Supercapacitors"],
+    "details_page": "projects/mxene-composites.html"
   },
   {
     "name": "Medicine Name Recognition from Handwritten Prescription",
