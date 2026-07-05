@@ -21,7 +21,7 @@
     "name": "MXene Based Composites for Energy Storage and Conversion",
     "image": "media/MXene-composites.png",
     "stacks": ["MXene", "Composites", "Water Splitting", "Supercapacitors"],
-    "details_page": "projects/mxene-composites.html"
+    "details_page": "projects/mxene_composites.html"
   },
   {
     "name": "Medicine Name Recognition from Handwritten Prescription",
