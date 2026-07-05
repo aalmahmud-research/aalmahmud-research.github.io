@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MXene-Based Composites for Water Splitting &amp; Supercapacitors - Abdullah Al Mahmud</title>
+    <link rel="icon" type="image/png" href="../media/osu_logo.png">
+    <script src="../assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-heading {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-glow { transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+        .card-glow:hover { border-color: #bfdbfe; box-shadow: 0 8px 32px rgba(59,130,246,0.14); }
+        header { transition: box-shadow 0.3s ease; }
+        header.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.07); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to portfolio
+            </a>
+            <a href="../index.html#projects" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">All projects</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+
+        <!-- Title + tags -->
+        <div class="text-center mb-8">
+            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Project</p>
+            <h1 class="text-4xl md:text-5xl font-bold gradient-heading leading-tight">MXene-Based Composites for Water Splitting &amp; Supercapacitors</h1>
+            <div class="flex justify-center items-center gap-1.5 mt-3">
+                <div class="h-px w-8 bg-gradient-to-r from-transparent to-blue-400 rounded-full"></div>
+                <div class="h-1.5 w-1.5 bg-blue-500 rounded-full"></div>
+                <div class="h-px w-8 bg-gradient-to-l from-transparent to-blue-400 rounded-full"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">MXenes</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Water Splitting (HER)</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Supercapacitors</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Heterostructures</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Electrocatalysis</span>
+            </div>
+        </div>
+
+        <!-- Overview -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Overview</h2>
+            <p class="text-gray-700 leading-relaxed text-justify">
+                MXenes &mdash; two-dimensional transition-metal carbides and nitrides such as Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub>
+                and Nb<sub>2</sub>CT<sub>x</sub> &mdash; combine metallic conductivity, a large accessible surface area,
+                and tunable surface chemistry, making them outstanding scaffolds for energy materials. This project
+                pairs MXenes with redox-active phases to build <b>composite electrodes</b> for two complementary
+                clean-energy applications: <b>electrochemical water splitting</b> (hydrogen production) and
+                <b>high-performance supercapacitors</b> (energy storage). In both, the MXene provides a conductive,
+                anti-aggregation support that unlocks the full potential of the active material.
+            </p>
+        </section>
+
+        <!-- Why MXenes -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Why MXene Composites?</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>High conductivity</b> &mdash; the metallic MXene network moves electrons rapidly to and from active sites.</li>
+                <li><b>Conductive scaffold</b> &mdash; MXene sheets disperse the active phase and prevent nanoparticle aggregation, preserving activity.</li>
+                <li><b>Rich interfaces</b> &mdash; coupling MXenes with sulfides, selenides, or doped chalcogenides creates synergistic interfaces with extra active sites.</li>
+                <li><b>Versatility</b> &mdash; the same design principle boosts both catalytic (HER) and charge-storage (supercapacitor) performance.</li>
+            </ul>
+        </section>
+
+        <!-- System 1: Water splitting -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-1">System 1 &mdash; Water Splitting</h2>
+            <p class="text-sm text-blue-600 font-semibold mb-3">Nb-doped MoSe<sub>2</sub> / Nb<sub>2</sub>CT<sub>x</sub> MXene heterostructure</p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                This work designs an interface-coupled heterostructure in which <b>niobium-doped molybdenum
+                diselenide (Nb-MoSe<sub>2</sub>)</b> is anchored on <b>Nb<sub>2</sub>CT<sub>x</sub> MXene</b> to
+                accelerate the hydrogen evolution reaction (HER). The Nb-MoSe<sub>2</sub> was grown by a hydrothermal
+                route, while the Nb<sub>2</sub>CT<sub>x</sub> MXene was produced by selectively acid-etching the
+                Nb<sub>2</sub>AlC MAX phase; the two were then coupled through a simple ultrasonication step.
+            </p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                Niobium doping reshapes the electronic environment of MoSe<sub>2</sub> and increases the density of
+                catalytically active sites, while the conductive Nb<sub>2</sub>CT<sub>x</sub> scaffold prevents
+                particle agglomeration and speeds charge transfer. In acidic media, the optimized
+                Nb-MoSe<sub>2</sub>/Nb<sub>2</sub>CT<sub>x</sub> delivered strong HER performance:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Overpotential of ~287 mV at 10 mA cm<sup>&minus;2</sup> (and ~405 mV at 50 mA cm<sup>&minus;2</sup>).</li>
+                <li>Tafel slope of ~122 mV dec<sup>&minus;1</sup>, indicating favorable reaction kinetics.</li>
+                <li>Stable operation over ~48 h on a carbon-cloth substrate.</li>
+            </ul>
+            <!-- Image 1 (EDIT src) -->
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/Nb-MoSe2-Nb2CTx.jpg" alt="Nb-MoSe2/Nb2CTx heterostructure for HER"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
+        </section>
+
+        <!-- System 2: Supercapacitors -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-1">System 2 &mdash; Supercapacitors</h2>
+            <p class="text-sm text-blue-600 font-semibold mb-3">Ni-Fe sulfide @ Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub> MXene hybrid electrode</p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                This work builds a binder-free, hierarchical <b>2D/3D hybrid electrode</b> by growing three-dimensional
+                bimetallic <b>nickel&ndash;iron sulfide (NFS)</b> directly on two-dimensional single-layer
+                <b>Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub> MXene</b> nanosheets via an ethyl-xanthate-driven in situ
+                solvothermal synthesis. The 2D MXene sheets act as conductive, high-surface-area substrates, while the
+                3D NFS nanostructures interconnect the sheets and expose abundant redox-active sites, enabling fast
+                electron and ion transport.
+            </p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                The resulting NFS@MXene electrode achieved excellent charge-storage performance:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Specific capacity of ~1693 C g<sup>&minus;1</sup> (~4233 F g<sup>&minus;1</sup>) at 1 A g<sup>&minus;1</sup>.</li>
+                <li>Strong rate capability (~80% retention at 15 A g<sup>&minus;1</sup>) and cycling stability (~98.5% after 15,000 cycles).</li>
+                <li>An assembled asymmetric device (NFS@MXene//AC) reached ~82 Wh kg<sup>&minus;1</sup> energy density at ~8.0 kW kg<sup>&minus;1</sup> power density, with ~98.8% retention after 15,000 cycles.</li>
+            </ul>
+            <p class="text-gray-700 leading-relaxed text-justify mt-4">
+                The high performance is attributed to a synergistic charge-storage mechanism involving reversible,
+                multivalent redox transitions of the Ni, Fe, and Ti centers, enabled by the conductive MXene network.
+            </p>
+            <!-- Image 2 (EDIT src) -->
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/NFS-MXene.jpg" alt="NiFe-sulfide@Ti3C2Tx MXene hybrid electrode"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
+        </section>
+
+        <!-- Approach -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Approach &amp; Methods</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>MXene synthesis</b> &mdash; selective acid etching of MAX phases (e.g., Nb<sub>2</sub>AlC) to produce 2D MXene sheets.</li>
+                <li><b>Composite assembly</b> &mdash; hydrothermal, solvothermal, and in situ growth to couple the active phase with the MXene support.</li>
+                <li><b>Characterization</b> &mdash; XRD, XPS, FE-SEM, and TEM to confirm composition, structure, and interface formation.</li>
+                <li><b>Electrochemical testing</b> &mdash; HER performance (overpotential, Tafel slope, stability) and supercapacitor performance (specific capacity, rate capability, cycling, full-device energy/power density).</li>
+            </ul>
+        </section>
+
+        <!-- Key takeaways -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Key Takeaways</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Coupling active phases with conductive MXenes enhances both electrocatalysis and energy storage.</li>
+                <li>Doping and interface engineering create additional active sites and faster charge transfer.</li>
+                <li>The same 2D-support design strategy transfers across very different applications &mdash; from hydrogen production to supercapacitor electrodes.</li>
+            </ul>
+        </section>
+
+        <!-- Related publications -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Related Publications</h2>
+            <ol class="space-y-5 text-gray-700 leading-relaxed list-decimal list-inside">
+                <li>
+                    <b>Rational design of interface-coupled Nb-doped MoSe<sub>2</sub>/Nb<sub>2</sub>CT<sub>x</sub> MXene heterostructures with enriched active sites toward enhanced hydrogen evolution reaction</b>
+                    <span class="block text-sm text-blue-600 font-semibold mt-0.5">Journal of Power Sources</span>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0378775326004246" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline mt-1"><i data-lucide="external-link" class="w-3.5 h-3.5"></i> View paper</a>
+                </li>
+                <li>
+                    <b>Ethyl xanthate-driven in situ synthesis of Ni-Fe sulfide@Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub> MXene hybrid electrodes for ultra-high-performance supercapacitors</b>
+                    <span class="block text-sm text-blue-600 font-semibold mt-0.5">Chemical Engineering Journal</span>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1385894725086292" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline mt-1"><i data-lucide="external-link" class="w-3.5 h-3.5"></i> View paper</a>
+                </li>
+            </ol>
+        </section>
+
+        <div class="text-center mt-8">
+            <a href="../index.html#projects" class="inline-flex items-center gap-2 text-blue-600 hover:underline font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to all projects
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-8">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy; 2026 Abdullah Al Mahmud. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 10); });
+    </script>
+</body>
+</html>
