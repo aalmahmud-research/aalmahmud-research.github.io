@@ -24,11 +24,10 @@
     "details_page": "projects/mxene_composites.html"
   },
   {
-    "name": "Medicine Name Recognition from Handwritten Prescription",
-    "image": "media/medicine_ocr.gif",
-    "stacks": ["EasyOCR", "OpenCV"],
-    "github_link": "https://github.com/your-username/your-repo",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/medicine-name-recognition-from-handwritten-prescription?authuser=0"
+    "name": "Doped Transition Metal Dichalcogenides for Water Splitting",
+    "image": " ",
+    "stacks": ["Transition Metal", "Dichalcogenides", "Doping"],
+    "details_page": "projects/doped_tmd.html"
   },
   {
     "name": "Blind Vision Assistant",
