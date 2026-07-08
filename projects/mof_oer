@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal-Organic Frameworks for Energy Storage and OER - Abdullah Al Mahmud</title>
+    <link rel="icon" type="image/png" href="../media/osu_logo.png">
+    <script src="../assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <script src="../assets/js/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-heading {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-glow { transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+        .card-glow:hover { border-color: #bfdbfe; box-shadow: 0 8px 32px rgba(59,130,246,0.14); }
+        header { transition: box-shadow 0.3s ease; }
+        header.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.07); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to portfolio
+            </a>
+            <a href="../index.html#projects" class="text-sm text-gray-500 hover:text-blue-600 transition-colors">All projects</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+
+        <!-- Title + tags -->
+        <div class="text-center mb-8">
+            <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">Project</p>
+            <h1 class="text-4xl md:text-5xl font-bold gradient-heading leading-tight">Metal&ndash;Organic Frameworks for Energy Storage and OER</h1>
+            <div class="flex justify-center items-center gap-1.5 mt-3">
+                <div class="h-px w-8 bg-gradient-to-r from-transparent to-blue-400 rounded-full"></div>
+                <div class="h-1.5 w-1.5 bg-blue-500 rounded-full"></div>
+                <div class="h-px w-8 bg-gradient-to-l from-transparent to-blue-400 rounded-full"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-4">
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Metal&ndash;Organic Frameworks</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Supercapacitors</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">OER</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Doping Strategy</span>
+                <span class="bg-gray-200 text-gray-800 text-xs font-medium px-3 py-1 rounded-full">Energy Storage &amp; Conversion</span>
+            </div>
+        </div>
+
+        <!-- Overview -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Overview</h2>
+            <p class="text-gray-700 leading-relaxed text-justify">
+                Metal&ndash;organic frameworks (MOFs) are highly tunable, porous materials that have become a research
+                hotspot for energy applications, thanks to the synergistic interactions possible between their metal
+                centers. Their main drawbacks, however, are <b>relatively low electrical conductivity</b> and a
+                tendency to <b>mask active sites</b>, which limit their real-world use. This project addresses those
+                limitations through a <b>metal-doping strategy</b>, developing a <b>copper-doped strontium MOF
+                (Cu-doped Sr MOF)</b> that serves as a <b>dual-function</b> active material &mdash; performing well
+                both as a supercapacitor electrode (energy storage) and as an oxygen evolution reaction (OER) catalyst
+                (energy conversion).
+            </p>
+        </section>
+
+        <!-- Why doping -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Why Dope the MOF?</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>Synergistic metal centers</b> &mdash; introducing copper into the strontium MOF cluster creates favorable Cu&ndash;Sr interactions that enhance electrochemical behavior.</li>
+                <li><b>More active sites</b> &mdash; doping helps unmask and multiply the redox-active sites that pristine MOFs tend to hide.</li>
+                <li><b>Dual functionality</b> &mdash; the same doped framework works for both charge storage and oxygen evolution, streamlining material design.</li>
+                <li><b>Simple synthesis</b> &mdash; the material is made through a facile, scalable hydrothermal method.</li>
+            </ul>
+        </section>
+
+        <!-- Energy storage performance -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-1">Energy Storage &mdash; Supercapacitor</h2>
+            <p class="text-sm text-blue-600 font-semibold mb-3">Cu-doped Sr MOF electrode</p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                As a supercapacitor electrode, the Cu-doped Sr MOF delivered a marked improvement in charge storage
+                over the undoped framework, along with strong cycling stability and fast ion diffusion:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Specific capacity of ~243.6 C g<sup>&minus;1</sup> (~443 F g<sup>&minus;1</sup>) at 1 A g<sup>&minus;1</sup> &mdash; far higher than the undoped Sr MOF (~81.3 C g<sup>&minus;1</sup>).</li>
+                <li>Excellent long-term stability (~98.7% retention over 10,000 charge&ndash;discharge cycles).</li>
+                <li>An assembled asymmetric device (Cu-doped Sr MOF // activated carbon) delivered ~19 Wh kg<sup>&minus;1</sup> energy density at ~801 W kg<sup>&minus;1</sup> power density.</li>
+            </ul>
+            <!-- Image 1 (EDIT src) -->
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/mof_oer.jpg" alt="Cu-doped Sr MOF supercapacitor performance"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
+        </section>
+
+        <!-- OER performance -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-1">Energy Conversion &mdash; Oxygen Evolution Reaction</h2>
+            <p class="text-sm text-blue-600 font-semibold mb-3">Cu-doped Sr MOF electrocatalyst</p>
+            <p class="text-gray-700 leading-relaxed text-justify mb-4">
+                The same doped framework also acts as an effective OER electrocatalyst &mdash; the anode reaction of
+                water splitting. Copper doping substantially lowered the overpotential relative to the undoped MOF:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>Overpotential of ~398 mV at 10 mA cm<sup>&minus;2</sup>, compared with ~600 mV for the undoped Sr MOF.</li>
+                <li>Tafel slope of ~58 mV dec<sup>&minus;1</sup>, indicating favorable OER kinetics.</li>
+                <li>The enhanced activity is attributed to the synergistic effects between Cu and Sr within the MOF cluster.</li>
+            </ul>
+            <!-- Image 2 (EDIT src) -->
+            <div class="max-w-md mx-auto mt-6">
+                <img src="../media/Sr_mof.jpg" alt="Cu-doped Sr MOF OER performance"
+                     class="w-full h-64 object-contain bg-gray-100 rounded-2xl border border-gray-200 shadow-sm p-3">
+            </div>
+        </section>
+
+        <!-- Approach -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Approach &amp; Methods</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li><b>Synthesis</b> &mdash; facile hydrothermal preparation of the copper-doped strontium MOF.</li>
+                <li><b>Characterization</b> &mdash; structural and compositional analysis to confirm the doped framework.</li>
+                <li><b>Energy-storage testing</b> &mdash; specific capacity, cycling stability, and a full asymmetric supercapacitor device.</li>
+                <li><b>Electrocatalytic testing</b> &mdash; OER overpotential and Tafel-slope analysis versus the undoped MOF.</li>
+            </ul>
+        </section>
+
+        <!-- Key takeaways -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">Key Takeaways</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                <li>A metal-doping strategy turns a low-conductivity MOF into a high-performing, dual-function material.</li>
+                <li>The Cu-doped Sr MOF works for both supercapacitor energy storage and OER energy conversion.</li>
+                <li>Cu&ndash;Sr synergy within the MOF cluster is the key driver of the improved performance, opening a design route for other doped-MOF electrodes and catalysts.</li>
+            </ul>
+        </section>
+
+        <!-- Related publication -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm card-glow mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Related Publication</h2>
+            <ol class="space-y-5 text-gray-700 leading-relaxed list-decimal list-inside">
+                <li>
+                    <b>Copper-doped strontium metal-organic framework: Dual-function active material for supercapacitor and oxygen evolution reaction</b>
+                    <span class="block text-sm text-blue-600 font-semibold mt-0.5">Electrochimica Acta</span>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0013468624010958" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline mt-1"><i data-lucide="external-link" class="w-3.5 h-3.5"></i> View paper</a>
+                </li>
+            </ol>
+        </section>
+
+        <div class="text-center mt-8">
+            <a href="../index.html#projects" class="inline-flex items-center gap-2 text-blue-600 hover:underline font-medium">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to all projects
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-8">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy; 2026 Abdullah Al Mahmud. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 10); });
+    </script>
+</body>
+</html>
