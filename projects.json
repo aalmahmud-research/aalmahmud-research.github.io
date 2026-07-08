@@ -30,10 +30,9 @@
     "details_page": "projects/doped_tmd.html"
   },
   {
-    "name": "Blind Vision Assistant",
-    "image": "media/blindvision.png",
-    "stacks": ["Raspberry pi", "Microcontroller"],
-    "github_link": "",
-    "details_page": "https://sites.google.com/view/shakhrul-iman-siam/research-and-projects/blind-vision?authuser=0"
+    "name": "Metal–Organic Frameworks for Energy Storage and OER",
+    "image": "media/mof_oer.jpg",
+    "stacks": ["Metal-Organic Framework", "Supercapacitors", "Oxygen Evolution Reaction"],
+    "details_page": "projects/mof_oer.html"
   }
 ]
