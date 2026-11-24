@@ -22,5 +22,18 @@
     "researchGate": "https://www.researchgate.net/profile/Abdullah-Al-Mahmud-21?ev=hdr_xprf",
     "orcid": "https://orcid.org/0009-0002-2733-0475",    
     "github": "https://github.com/aalmahmud-research"
+  },
+  "hero": {
+    "eyebrow": "PhD Researcher | Chemical & Biomolecular Engineering | The Ohio State University",
+    "static_role": "Computational Chemist",
+    "typing_phrases": [
+      "Molecular Dynamics",
+      "Density Functional Theory",
+      "Zeolite Modeling",
+      "Solvation Thermodynamics",
+      "Machine Learning for Materials",
+      "Computational Catalysis"
+    ],
+    "description": "I investigate molecular interactions, adsorption, and solvation thermodynamics in zeolite nanopores using density functional theory, molecular dynamics, statistical mechanics, and data-driven approaches for advanced materials design."
   }
 }
