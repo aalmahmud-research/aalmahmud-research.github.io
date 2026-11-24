@@ -24,15 +24,18 @@
     "github": "https://github.com/aalmahmud-research"
   },
   "hero": {
-    "eyebrow": "PhD Researcher | Chemical & Biomolecular Engineering | The Ohio State University",
-    "static_role": "Computational Chemist",
+    "eyebrow": "PhD Student | Chemical & Biomolecular Engineering | The Ohio State University",
+    "static_role": "Computational Researcher",
     "typing_phrases": [
-      "Molecular Dynamics",
+      "Statistical Mechanics",
+      "Molecular Dynamics"  
       "Density Functional Theory",
       "Zeolite Modeling",
       "Solvation Thermodynamics",
+      "Adsorption Free Energy",
       "Machine Learning for Materials",
-      "Computational Catalysis"
+      "Computational Catalysis",
+      "cMD/AIMD Molecular Simulation"  
     ],
     "description": "I investigate molecular interactions, adsorption, and solvation thermodynamics in zeolite nanopores using density functional theory, molecular dynamics, statistical mechanics, and data-driven approaches for advanced materials design."
   }
