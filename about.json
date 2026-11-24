@@ -28,14 +28,14 @@
     "static_role": "Computational Researcher",
     "typing_phrases": [
       "Statistical Mechanics",
-      "Molecular Dynamics"  
+      "Molecular Dynamics",  
       "Density Functional Theory",
       "Zeolite Modeling",
       "Solvation Thermodynamics",
       "Adsorption Free Energy",
       "Machine Learning for Materials",
       "Computational Catalysis",
-      "cMD/AIMD Molecular Simulation"  
+      "Classical & Ab-Initio Molecular Simulation"  
     ],
     "description": "I investigate molecular interactions, adsorption, and solvation thermodynamics in zeolite nanopores using density functional theory, molecular dynamics, statistical mechanics, and data-driven approaches for advanced materials design."
   }
