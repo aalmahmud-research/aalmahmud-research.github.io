@@ -142,6 +142,220 @@
         @media (prefers-reduced-motion: reduce) {
             .slide-in-left, .slide-in-right { animation: none; }
         }
+        /* ===== NEW HOMEPAGE HERO ===== */
+#hero {
+    position: relative;
+    isolation: isolate;
+    min-height: calc(100svh - 75px);
+    display: grid;
+    place-items: center;
+    padding: 55px 20px 40px;
+    overflow: hidden;
+    background: #071126;
+    color: white;
+    text-align: center;
+    scroll-margin-top: 80px;
+}
+
+/* Sarah Allec's original molecular background */
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(5, 12, 29, .58),
+            rgba(5, 12, 29, .68)
+        ),
+        url("media/sarah-background.jpg")
+        center center / cover no-repeat;
+}
+
+/* Moving particles and connections */
+#hero-network {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#hero .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#hero .hero-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 4px solid white;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 35px rgba(100,180,255,.35);
+}
+
+#hero .hero-eyebrow {
+    font-size: .82rem;
+    font-weight: 600;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    color: #c6ddff;
+    margin-bottom: 12px;
+}
+
+#hero .hero-name {
+    font-size: clamp(2.5rem, 5vw, 4.4rem);
+    line-height: 1.13;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 18px;
+    text-shadow: 0 3px 25px rgba(0,0,0,.4);
+}
+
+#hero .hero-role {
+    font-size: clamp(1.15rem, 2.4vw, 1.9rem);
+    font-weight: 600;
+    min-height: 2.7em;
+    color: #f1f6ff;
+}
+
+#hero-typed {
+    color: #85dbff;
+}
+
+#hero .hero-cursor {
+    color: #85dbff;
+    animation: heroBlink .8s step-end infinite;
+}
+
+@keyframes heroBlink {
+    50% { opacity: 0; }
+}
+
+#hero .hero-description {
+    max-width: 800px;
+    margin: 0 auto 25px;
+    color: #e0e9fa;
+    font-size: 1.07rem;
+    line-height: 1.8;
+}
+
+#hero .hero-actions,
+#hero .hero-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#hero .hero-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background: #2563eb;
+    transition: transform .2s, background .2s;
+}
+
+#hero .hero-button:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+#hero .hero-button.secondary {
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.7);
+}
+
+#hero .hero-social {
+    margin-top: 22px;
+}
+
+#hero .hero-social a {
+    display: inline-flex;
+    padding: 8px 14px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 8px;
+    color: #eaf3ff;
+    font-size: .85rem;
+    text-decoration: none;
+    background: rgba(8,20,45,.35);
+}
+
+#hero .hero-social a:hover {
+    background: rgba(59,130,246,.45);
+}
+
+#hero .hero-social a[hidden] {
+    display: none;
+}
+
+#hero .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 800px;
+    margin: 30px auto 0;
+}
+
+#hero .hero-stat {
+    padding: 15px 10px;
+    border: 1px solid rgba(255,255,255,.22);
+    background: rgba(8,20,45,.42);
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
+}
+
+#hero .hero-stat strong {
+    display: block;
+    color: #9cdcff;
+    font-size: 1.8rem;
+}
+
+#hero .hero-stat span {
+    font-size: .8rem;
+    color: #e4edff;
+}
+
+#hero .hero-scroll {
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 640px) {
+    #hero {
+        padding: 38px 16px;
+    }
+    #hero .hero-photo {
+        width: 105px;
+        height: 105px;
+    }
+    #hero .hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #hero .hero-description {
+        font-size: .95rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #hero .hero-cursor {
+        animation: none;
+    }
+}
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -184,6 +398,95 @@
         </div>
     </header>
 
+<!-- ===== NEW HERO SECTION ===== -->
+<section id="hero">
+
+    <canvas id="hero-network" aria-hidden="true"></canvas>
+
+    <div class="hero-content">
+
+        <!-- Profile Photo -->
+        <img
+            id="hero-photo"
+            class="hero-photo"
+            src="media/my_picture-2.jpg"
+            alt="Abdullah Al Mahmud"
+        >
+
+        <!-- Academic Identity -->
+        <p id="hero-eyebrow" class="hero-eyebrow">
+            PhD Researcher | The Ohio State University
+        </p>
+
+        <h1 id="hero-name" class="hero-name">
+            Abdullah Al Mahmud
+        </h1>
+
+        <!-- Auto-Typing Role -->
+        <p class="hero-role">
+            <span id="hero-static">Computational Chemist</span>
+            |
+            <span id="hero-typed">Molecular Dynamics</span><span class="hero-cursor">|</span>
+        </p>
+
+        <!-- Research Description -->
+        <p id="hero-description" class="hero-description">
+            Exploring molecular interactions, adsorption,
+            and solvation thermodynamics in zeolites
+            through quantum calculations, molecular
+            dynamics, and statistical mechanics.
+        </p>
+
+        <!-- Action Buttons -->
+        <div class="hero-actions">
+            <a href="#research" class="hero-button">
+                Explore Research →
+            </a>
+            <a href="#contact" class="hero-button secondary">
+                Let's Collaborate
+            </a>
+        </div>
+
+        <!-- Professional Links -->
+        <div class="hero-social">
+            <a id="hero-cv" href="media/pdf/CV.pdf">CV</a>
+            <a id="hero-github" href="#">GitHub</a>
+            <a id="hero-linkedin" href="#">LinkedIn</a>
+            <a id="hero-scholar" href="#">Google Scholar</a>
+        </div>
+
+        <!-- Research Statistics -->
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+                <strong id="hero-publications">—</strong>
+                <span>Publications</span>
+            </div>
+
+            <div class="hero-stat">
+                <strong id="hero-research">—</strong>
+                <span>Research Areas</span>
+            </div>
+
+            <div class="hero-stat">
+                <strong id="hero-projects">—</strong>
+                <span>Projects</span>
+            </div>
+
+            <div class="hero-stat">
+                <strong id="hero-experience">—</strong>
+                <span>Experience Entries</span>
+            </div>
+
+        </div>
+
+        <a href="#about" class="hero-scroll">
+            ↓ Scroll to About Me
+        </a>
+
+    </div>
+</section>
+<!-- ===== END HERO SECTION ===== -->
     <!-- About Section --><section id="about" class="blended-background relative overflow-hidden py-20 flex flex-col justify-center">
         <!-- Decorative background blobs -->
         <div class="absolute top-0 left-0 w-80 h-80 bg-blue-200 rounded-full -translate-x-1/2 -translate-y-1/2 opacity-40 blur-3xl pointer-events-none"></div>
@@ -360,6 +663,187 @@
                         
                         const config = { ...defaultConfig, ...configData, fontSizes: { ...defaultConfig.fontSizes, ...(configData.fontSizes || {}) } };
                         
+// ===== NEW HERO CONFIGURATION =====
+const heroInfo = aboutData.hero || {};
+const heroElement = document.getElementById('hero');
+
+document.getElementById('hero-name').textContent = aboutData.name;
+document.getElementById('hero-photo').src = aboutData.profile_picture;
+document.getElementById('hero-photo').alt = aboutData.name + ' portrait';
+
+document.getElementById('hero-eyebrow').textContent =
+    heroInfo.eyebrow || aboutData.title;
+
+document.getElementById('hero-static').textContent =
+    heroInfo.static_role || 'Computational Chemist';
+
+document.getElementById('hero-description').textContent =
+    heroInfo.description ||
+    'Exploring molecular interactions and solvation thermodynamics.';
+
+const heroLinkValues = {
+    'hero-cv': aboutData.cv_link,
+    'hero-github': aboutData.social_links?.github,
+    'hero-linkedin': aboutData.social_links?.linkedin,
+    'hero-scholar': aboutData.social_links?.google_scholar
+};
+
+for (const [id, url] of Object.entries(heroLinkValues)) {
+    const element = document.getElementById(id);
+    if (url) {
+        element.href = url;
+        if (url.startsWith('https://')) {
+            element.target = '_blank';
+            element.rel = 'noopener noreferrer';
+        }
+    } else {
+        element.hidden = true;
+    }
+}
+
+// Automatically count entries in your existing JSON files
+document.getElementById('hero-publications').textContent =
+    publicationsData.length;
+
+document.getElementById('hero-research').textContent =
+    researchData.length;
+
+document.getElementById('hero-projects').textContent =
+    projectsData.length;
+
+document.getElementById('hero-experience').textContent =
+    experienceData.length;
+
+
+// ===== AUTO-TYPING EFFECT =====
+const typingPhrases =
+    (Array.isArray(heroInfo.typing_phrases) &&
+     heroInfo.typing_phrases.length)
+    ? heroInfo.typing_phrases
+    : ['Molecular Dynamics', 'DFT', 'Solvation Thermodynamics'];
+
+const typingTarget = document.getElementById('hero-typed');
+
+const reduceMotion =
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (reduceMotion) {
+    typingTarget.textContent = typingPhrases[0];
+} else {
+    let phraseIndex = 0;
+    let letters = 0;
+    let deleting = false;
+
+    function typeHero() {
+        const word = typingPhrases[phraseIndex];
+        typingTarget.textContent = word.slice(0, letters);
+
+        if (!deleting && letters < word.length) {
+            letters++;
+            setTimeout(typeHero, 72);
+        } else if (!deleting) {
+            deleting = true;
+            setTimeout(typeHero, 1650);
+        } else if (letters > 0) {
+            letters--;
+            setTimeout(typeHero, 40);
+        } else {
+            deleting = false;
+            phraseIndex = (phraseIndex + 1) % typingPhrases.length;
+            setTimeout(typeHero, 230);
+        }
+    }
+
+    typeHero();
+}
+
+
+// ===== ANIMATED NEURAL NETWORK =====
+const networkCanvas = document.getElementById('hero-network');
+const networkContext = networkCanvas.getContext('2d');
+
+if (networkContext) {
+    let w = 0;
+    let h = 0;
+    let particles = [];
+
+    function sizeNetwork() {
+        const bounds = heroElement.getBoundingClientRect();
+
+        w = bounds.width;
+        h = bounds.height;
+
+        const ratio = Math.min(window.devicePixelRatio || 1, 2);
+
+        networkCanvas.width = Math.round(w * ratio);
+        networkCanvas.height = Math.round(h * ratio);
+
+        networkContext.setTransform(ratio, 0, 0, ratio, 0, 0);
+
+        const count = Math.min(
+            55,
+            Math.max(25, Math.round(w / 26))
+        );
+
+        particles = Array.from({length: count}, () => ({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            vx: (Math.random() - .5) * .55,
+            vy: (Math.random() - .5) * .55
+        }));
+    }
+
+    function paintNetwork() {
+        networkContext.clearRect(0, 0, w, h);
+
+        for (let i = 0; i < particles.length; i++) {
+            const a = particles[i];
+
+            if (!reduceMotion) {
+                a.x += a.vx;
+                a.y += a.vy;
+
+                if (a.x < 0 || a.x > w) a.vx *= -1;
+                if (a.y < 0 || a.y > h) a.vy *= -1;
+            }
+
+            for (let j = i + 1; j < particles.length; j++) {
+                const b = particles[j];
+
+                const d = Math.hypot(
+                    a.x - b.x,
+                    a.y - b.y
+                );
+
+                if (d >= 165) continue;
+
+                networkContext.strokeStyle =
+                    `rgba(140,210,255,${(1-d/165)*.50})`;
+
+                networkContext.lineWidth = .8;
+                networkContext.beginPath();
+                networkContext.moveTo(a.x, a.y);
+                networkContext.lineTo(b.x, b.y);
+                networkContext.stroke();
+            }
+
+            networkContext.fillStyle = 'rgba(180,230,255,.9)';
+            networkContext.beginPath();
+            networkContext.arc(a.x, a.y, 1.7, 0, 2*Math.PI);
+            networkContext.fill();
+        }
+
+        if (!reduceMotion) {
+            requestAnimationFrame(paintNetwork);
+        }
+    }
+
+    sizeNetwork();
+    window.addEventListener('resize', sizeNetwork);
+    paintNetwork();
+}
+// ===== END HERO CODE =====
+
                         const sections = document.querySelectorAll('#news, #research, #education, #experience, #publications, #projects, #contact');
                         sections.forEach(section => {
                             section.style.paddingTop = config.sectionSpacingY;
