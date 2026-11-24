@@ -310,11 +310,16 @@
 }
 
 #hero .hero-stat {
-    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 6px;  /* Top/bottom: 6px; left/right: 5px */
     border: 1px solid rgba(255,255,255,.22);
     background: rgba(8,20,45,.42);
     border-radius: 12px;
     backdrop-filter: blur(7px);
+    text-align: center;
 }
 
 #hero .hero-stat strong {
@@ -327,7 +332,6 @@
     font-size: .8rem;
     color: #e4edff;
 }
-
 
 #hero .hero-scroll {
     display: flex;
