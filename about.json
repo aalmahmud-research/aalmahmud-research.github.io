@@ -33,9 +33,10 @@
       "Zeolite Modeling",
       "Solvation Thermodynamics",
       "Adsorption Free Energy",
+      "Enthalpy-Entropy Interrelation",
       "Machine Learning for Materials",
       "Computational Catalysis",
-      "Classical & Ab-Initio Molecular Simulation"  
+      "Classical & Ab-Initio Molecular Dynamics"  
     ],
     "description": "I investigate molecular interactions, adsorption, and solvation thermodynamics in zeolite nanopores using density functional theory, molecular dynamics, statistical mechanics, and data-driven approaches for advanced materials design."
   }
