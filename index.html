@@ -177,48 +177,35 @@
         <!-- Dot pattern (top-right corner) -->
         <div class="about-dots absolute top-0 right-0 w-72 h-72 opacity-30 pointer-events-none"></div>
 
-        <div class="relative z-10 container mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-center md:items-center gap-10 max-w-5xl mx-auto">
+                <div class="relative z-10 container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-10 max-w-5xl mx-auto">
 
-                <!-- Left: Photo -->
-                <div class="flex-shrink-0 relative group">
-                    <!-- Gradient glow behind photo -->
-                    <div class="absolute -inset-2 bg-gradient-to-br from-blue-400 via-blue-300 to-indigo-400 rounded-2xl opacity-25 blur-lg group-hover:opacity-40 transition-opacity duration-500"></div>
-                    <img id="profile-picture" src="" alt="Profile Picture" class="relative rounded-2xl shadow-2xl object-cover ring-4 ring-white">
+                <!-- Left: Profile card -->
+                <div class="w-full max-w-sm md:w-80 flex-shrink-0 bg-blue-50/70 border border-blue-100 rounded-3xl shadow-lg p-6 text-center">
+                    <img id="profile-picture" src="" alt="Profile Picture"
+                         class="mx-auto rounded-full object-cover shadow-lg ring-4 ring-white">
+                    <h1 id="about-name" class="text-2xl font-bold text-gray-900 mt-5"></h1>
+                    <p id="about-title" class="text-blue-600 font-semibold mt-1"></p>
+                    <p id="about-location" class="text-sm text-gray-600 mt-1"></p>
+
+                    <!-- Buttons -->
+                    <a id="about-cv" href="#" class="block mt-6 bg-blue-600 text-white font-semibold py-3 rounded-xl shadow-md hover:bg-blue-700 transition-colors">View CV</a>
+                    <a href="#contact" class="block mt-3 border-2 border-blue-600 text-blue-600 font-semibold py-3 rounded-xl hover:bg-blue-50 transition-colors">Contact Me</a>
                 </div>
 
-                <!-- Right: Content -->
+                <!-- Right: Bio -->
                 <div class="flex-1 text-center md:text-left">
-                    <p class="text-blue-700 font-semibold text-xs uppercase tracking-widest mb-2">Research Portfolio</p>
-                    <h1 id="about-name" class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight"></h1>
-                    <p id="about-title" class="text-base text-gray-500 font-medium mt-1.5"></p>
-                    <!-- Accent divider -->
-                    <div class="flex items-center gap-2 mt-4 mb-4 justify-center md:justify-start">
+                    <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-2">About Me</p>
+                    <div class="flex items-center gap-2 mb-4 justify-center md:justify-start">
                         <div class="h-1 w-10 bg-blue-500 rounded-full"></div>
                         <div class="h-1 w-4 bg-indigo-400 rounded-full"></div>
                         <div class="h-1 w-2 bg-blue-300 rounded-full"></div>
                     </div>
-                    <p id="about-bio" class="text-gray-600 leading-relaxed text-[0.95rem]"></p>
+                    <p id="about-bio" class="text-gray-600 leading-relaxed text-[0.95rem] text-justify"></p>
                     <div id="about-skills" class="flex flex-wrap justify-center md:justify-start gap-2 mt-4"></div>
-                    <!-- Location & email -->
-                    <div class="flex flex-wrap justify-center md:justify-start items-center gap-x-5 gap-y-1.5 mt-4 text-sm text-gray-500">
-                        <div class="flex items-center gap-1.5">
-                            <i data-lucide="map-pin" class="w-4 h-4 text-blue-500 flex-shrink-0"></i>
-                            <span id="about-location"></span>
-                        </div>
-                        <div class="flex items-center gap-1.5">
-                            <i data-lucide="mail" class="w-4 h-4 text-blue-500 flex-shrink-0"></i>
-                            <a id="about-email" href="" class="hover:text-blue-600 transition-colors"></a>
-                        </div>
-                    </div>
-                    <!-- CTA buttons -->
-                    <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-5">
-                        <a id="about-cv" href="#" class="bg-blue-600 text-white font-semibold px-5 py-2.5 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105 flex items-center gap-2 text-sm">
-                            <i data-lucide="download" class="w-4 h-4"></i> View CV
-                        </a>
-                        <a href="#contact" class="bg-white text-gray-800 font-semibold px-5 py-2.5 rounded-lg shadow-md border border-gray-300 hover:bg-gray-100 transition-transform transform hover:scale-105 flex items-center gap-2 text-sm">
-                            <i data-lucide="send" class="w-4 h-4"></i> Contact Me
-                        </a>
+                    <div class="flex items-center gap-1.5 mt-4 text-sm text-gray-500 justify-center md:justify-start">
+                        <i data-lucide="mail" class="w-4 h-4 text-blue-500 flex-shrink-0"></i>
+                        <a id="about-email" href="" class="hover:text-blue-600 transition-colors"></a>
                     </div>
                 </div>
             </div>
