@@ -328,11 +328,40 @@
     color: #e4edff;
 }
 
+
 #hero .hero-scroll {
-    display: inline-block;
-    margin-top: 25px;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 30px auto 0;
     text-decoration: none;
+}
+
+#hero .scroll-arrow {
+    display: block;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 700;
+    color: #38bdf8;
+    text-shadow: 0 0 18px rgba(56,189,248,.7);
+    animation: danceArrow 1.6s ease-in-out infinite;
+}
+
+@keyframes danceArrow {
+    0%, 100% { transform: translateY(0); }
+    35% { transform: translateY(15px); }
+    65% { transform: translateY(4px); }
+}
+
+#hero .hero-scroll:hover .scroll-arrow {
+    color: #facc15;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #hero .scroll-arrow {
+        animation: none;
+    }
 }
 
 @media (max-width: 640px) {
@@ -480,8 +509,8 @@
 
         </div>
 
-        <a href="#about" class="hero-scroll">
-            ↓ Scroll to About Me
+        <a href="#about" class="hero-scroll" aria-label="Scroll to About Me">
+    <span class="scroll-arrow">↓</span> 
         </a>
 
     </div>
