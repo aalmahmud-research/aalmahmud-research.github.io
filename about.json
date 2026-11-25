@@ -38,6 +38,6 @@
       "Computational Catalysis",
       "Classical & Ab-Initio MD"  
     ],
-    "description": "I investigate <span class='hl-blue'>molecular interactions</span>, <span class='hl-green'>adsorption</span>, <span class='hl-teal'>solvation thermodynamics</span>, and solvent-mediated interactions in <span class='hl-pink'>zeolite nanopores</span> using <span class='hl-yellow'>density functional theory</span>, <span class='hl-orange'>molecular dynamics</span>, statistical mechanics, and data-driven <span class='hl-purple'>machine learning</span> approaches for advanced materials design."
+    "description": "I investigate <span style='color:#93c5fd;font-weight:600'>molecular interactions</span>, <span style='color:#86efac;font-weight:600'>adsorption</span>, <span style='color:#5eead4;font-weight:600'>solvation thermodynamics</span>, and solvent-mediated interactions in <span style='color:#f9a8d4;font-weight:600'>zeolite nanopores</span> using <span style='color:#fde047;font-weight:600'>density functional theory</span>, <span style='color:#fdba74;font-weight:600'>molecular dynamics</span>, statistical mechanics, and data-driven <span style='color:#c4b5fd;font-weight:600'>machine learning</span> approaches for advanced materials design."
   }
 }
