@@ -291,21 +291,43 @@
     margin-top: 22px;
 }
 
+        
+/* Academic profile buttons */
 #hero .hero-social a {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
     padding: 8px 14px;
     border: 1px solid rgba(255,255,255,.35);
     border-radius: 8px;
     color: #eaf3ff;
     font-size: .85rem;
+    font-weight: 500;
     text-decoration: none;
     background: rgba(8,20,45,.35);
+    white-space: nowrap;
+    transition: transform .2s ease,
+                border-color .2s ease,
+                background .2s ease;
 }
 
+/* Official platform icons */
+#hero .hero-social img {
+    width: 19px;
+    height: 19px;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Hover animation */
 #hero .hero-social a:hover {
-    background: rgba(59,130,246,.45);
+    transform: translateY(-3px);
+    border-color: #38bdf8;
+    background: rgba(59,130,246,.35);
 }
 
+/* Hide links without URLs */
 #hero .hero-social a[hidden] {
     display: none;
 }
@@ -489,13 +511,41 @@
             </a>
         </div>
 
-        <!-- Professional Links -->
-        <div class="hero-social">
-            <a id="hero-cv" href="media/pdf/CV.pdf">CV</a>
-            <a id="hero-github" href="#">GitHub</a>
-            <a id="hero-linkedin" href="#">LinkedIn</a>
-            <a id="hero-scholar" href="#">Google Scholar</a>
-        </div>
+        
+<!-- Professional Academic Profiles -->
+<div class="hero-social">
+
+    <a id="hero-scholar" href="#" aria-label="Google Scholar profile">
+        <img src="https://cdn.simpleicons.org/googlescholar/FFFFFF"
+             alt="" aria-hidden="true">
+        Google Scholar
+    </a>
+
+    <a id="hero-linkedin" href="#" aria-label="LinkedIn profile">
+        <img src="https://cdn.simpleicons.org/linkedin/FFFFFF"
+             alt="" aria-hidden="true">
+        LinkedIn
+    </a>
+
+    <a id="hero-researchgate" href="#" aria-label="ResearchGate profile">
+        <img src="https://cdn.simpleicons.org/researchgate/FFFFFF"
+             alt="" aria-hidden="true">
+        ResearchGate
+    </a>
+
+    <a id="hero-orcid" href="#" aria-label="ORCID profile">
+        <img src="https://cdn.simpleicons.org/orcid/FFFFFF"
+             alt="" aria-hidden="true">
+        ORCID
+    </a>
+
+    <a id="hero-github" href="#" aria-label="GitHub profile">
+        <img src="https://cdn.simpleicons.org/github/FFFFFF"
+             alt="" aria-hidden="true">
+        GitHub
+    </a>
+
+</div>
 
         <!-- Research Statistics -->
         <div class="hero-stats">
@@ -722,13 +772,15 @@ document.getElementById('hero-static').textContent =
 document.getElementById('hero-description').innerHTML =
     heroInfo.description ||
     'Exploring molecular interactions and solvation thermodynamics.';
-
+                        
 const heroLinkValues = {
-    'hero-cv': aboutData.cv_link,
-    'hero-github': aboutData.social_links?.github,
+    'hero-scholar': aboutData.social_links?.google_scholar,
     'hero-linkedin': aboutData.social_links?.linkedin,
-    'hero-scholar': aboutData.social_links?.google_scholar
+    'hero-researchgate': aboutData.social_links?.researchGate,
+    'hero-orcid': aboutData.social_links?.orcid,
+    'hero-github': aboutData.social_links?.github
 };
+
 
 for (const [id, url] of Object.entries(heroLinkValues)) {
     const element = document.getElementById(id);
