@@ -312,12 +312,18 @@
                 background .2s ease;
 }
 
-/* Official platform icons */
-#hero .hero-social img {
+/* Profile icons */
+#hero .hero-social img,
+#hero .hero-social svg {
     width: 19px;
     height: 19px;
     display: block;
     flex-shrink: 0;
+}
+
+#hero .hero-social svg {
+    color: #FFFFFF;
+    stroke-width: 2.2;
 }
 
 /* Hover animation */
@@ -522,9 +528,8 @@
     </a>
 
     <a id="hero-linkedin" href="#" aria-label="LinkedIn profile">
-        <img src="https://cdn.simpleicons.org/linkedin/FFFFFF"
-             alt="" aria-hidden="true">
-        LinkedIn
+    <i data-lucide="linkedin" aria-hidden="true"></i>
+    LinkedIn
     </a>
 
     <a id="hero-researchgate" href="#" aria-label="ResearchGate profile">
