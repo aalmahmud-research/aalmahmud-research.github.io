@@ -437,6 +437,43 @@
         animation: none;
     }
 }
+/* Get In Touch profile buttons */
+#social-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+#social-links-container a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 10px 16px;
+    border: 1px solid #37516e;
+    border-radius: 8px;
+    background: #0f2245;
+    color: #eaf3ff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: transform .2s ease,
+                background .2s ease;
+}
+
+#social-links-container img,
+#social-links-container svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#social-links-container a:hover {
+    transform: translateY(-3px);
+    background: #1e40af;
+}
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -992,48 +1029,33 @@ if (networkContext) {
 
                         document.getElementById('about-skills').innerHTML = aboutData.skills.map(skill => `<span class="${skill.colors} text-sm font-medium px-4 py-1.5 rounded-full">${skill.name}</span>`).join('');
 
-                        // Render Social Links, Header Links & Footer
-                        const socialLinksContainer = document.getElementById('social-links-container');
-                        const headerSocialLinksContainer = document.getElementById('header-social-links');
-                        const socialLinks = aboutData.social_links;
                         
-                        const icons = {
-                            linkedin: {
-                                large: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#0077B5]"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>`,
-                                small: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#0077B5]"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>`
-                            },
-                            mail: {
-                                large: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#D44638]"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>`,
-                                small: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#D44638]"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>`
-                            },
-                            google_scholar: {
-                                large: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-[#4285F4]"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 7.5l12 7.5L24 7.5L12 0z"/></svg>`,
-                            },
-                            github: {
-                                large: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-800"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>`,
-                            }
-                        };
+                        /* ===== GET IN TOUCH: ACADEMIC PROFILES ===== */
                         
-                        let socialHTML = '';
-                        let headerSocialHTML = '';
-
-                        if (socialLinks.linkedin) {
-                            socialHTML += `<a href="${socialLinks.linkedin}" class="transition-transform hover:scale-110">${icons.linkedin.large}</a>`;
-                            headerSocialHTML += `<a href="${socialLinks.linkedin}" class="transition-transform hover:scale-110">${icons.linkedin.small}</a>`;
-                        }
-                        if (aboutData.email) {
-                             socialHTML += `<a href="mailto:${aboutData.email}" class="transition-transform hover:scale-110">${icons.mail.large}</a>`;
-                             headerSocialHTML += `<a href="mailto:${aboutData.email}" class="transition-transform hover:scale-110">${icons.mail.small}</a>`;
-                        }
-                        if (socialLinks.google_scholar) {
-                            socialHTML += `<a href="${socialLinks.google_scholar}" class="transition-transform hover:scale-110">${icons.google_scholar.large}</a>`;
-                        }
-                        if (socialLinks.github) {
-                            socialHTML += `<a href="${socialLinks.github}" class="transition-transform hover:scale-110">${icons.github.large}</a>`;
-                        }
-                        socialLinksContainer.innerHTML = socialHTML;
+                        const socialLinksContainer =
+                            document.getElementById('social-links-container');
                         
-                        document.getElementById('footer-text').innerHTML = `&copy; ${new Date().getFullYear()} ${aboutData.name}. All Rights Reserved.`;
+                        // Clear previous social icons
+                        socialLinksContainer.replaceChildren();
+                        
+                        // Copy the five academic profile buttons from the hero
+                        document.querySelectorAll('#hero .hero-social a')
+                            .forEach(heroLink => {
+                        
+                                // Skip profiles without URLs
+                                if (heroLink.hidden) return;
+                        
+                                // Copy the button, including its icon and text
+                                const contactLink = heroLink.cloneNode(true);
+                        
+                                // Remove duplicate ID
+                                contactLink.removeAttribute('id');
+                        
+                                // Add to Get In Touch section
+                                socialLinksContainer.appendChild(contactLink);
+                            });
+                        
+                        document.getElementById('footer-text').innerHTML = `&copy; ${new Date().getFullYear()}         ${aboutData.name}. All Rights Reserved.`;
 
 
                         const formatDate = (dateString) => {
