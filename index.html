@@ -444,11 +444,11 @@
 
     <!-- Header & Navigation --><header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            
             <div class="flex items-center gap-4">
-                <a href="#" class="text-xl font-bold text-gray-800">A Al Mahmud</a>
-                <div id="header-social-links" class="hidden md:flex items-center gap-3">
-                    <!-- Header social links injected here -->
-                </div>
+                <a href="#hero" class="text-xl font-bold text-gray-800">
+                    A Al Mahmud
+                </a>
             </div>
             <nav class="hidden md:flex space-x-8 items-center">
                 <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
@@ -1032,7 +1032,6 @@ if (networkContext) {
                             socialHTML += `<a href="${socialLinks.github}" class="transition-transform hover:scale-110">${icons.github.large}</a>`;
                         }
                         socialLinksContainer.innerHTML = socialHTML;
-                        headerSocialLinksContainer.innerHTML = headerSocialHTML;
                         
                         document.getElementById('footer-text').innerHTML = `&copy; ${new Date().getFullYear()} ${aboutData.name}. All Rights Reserved.`;
 
