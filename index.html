@@ -833,8 +833,28 @@ document.getElementById('hero-name').textContent = aboutData.name;
 document.getElementById('hero-photo').src = aboutData.profile_picture;
 document.getElementById('hero-photo').alt = aboutData.name + ' portrait';
 
-document.getElementById('hero-eyebrow').textContent =
-    heroInfo.eyebrow || aboutData.title;
+
+const eyebrowElement = document.getElementById('hero-eyebrow');
+
+const eyebrowText = heroInfo.eyebrow || aboutData.title;
+
+const eyebrowClasses = [
+    'eyebrow-student',
+    'eyebrow-department',
+    'eyebrow-university'
+];
+
+eyebrowElement.replaceChildren();
+
+eyebrowText.split('|').forEach((part, index) => {
+    if (index > 0) eyebrowElement.append(' | ');
+
+    const span = document.createElement('span');
+    span.className = eyebrowClasses[index] || '';
+    span.textContent = part.trim();
+
+    eyebrowElement.appendChild(span);
+});
 
 document.getElementById('hero-static').textContent =
     heroInfo.static_role || 'Computational Chemist';
