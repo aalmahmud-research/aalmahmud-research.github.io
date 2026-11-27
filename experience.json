@@ -14,6 +14,19 @@
     "skills": ["CP2K", "LAMMPS", "Atomistic Modeling", "Avogadro", "VESTA", "Jmol", "OVITO", "VMD", "GaussView"]
   },
   {
+    "title": "Graduate Teaching Assistant (GTA)",
+    "company": "The Ohio State University",
+    "logo": "media/OSU.png",
+    "period": "August 2026 - Present",
+    "location": "Columbus, OH, USA",
+    "details": [
+      "Theoretical Course – Petroleum Reservoir Engineering (Fall 2026)",
+      "Laboratory Session – Petrel Simulation Software (Fall 2026)"
+    ],
+    "badge": "Teaching",
+    "skills": ["Teaching", "Grading", " Petrel Lab Session", "Weekly Office Hours"]
+  },
+  {
     "title": "Graduate Research Assistant (GRA)",
     "company": "Yeungnam University",
     "logo": "media/YU.png",
@@ -36,8 +49,8 @@
     "period": "March 2022 - August 2023",
     "location": "Gyeongsan, South Korea",
     "details": [
-      "Theoretical Course – Chemical Engineering Thermodynamics I, Fluid Mechanics",
-      "Laboratory Course – Chemical Engineering Thermodynamics Lab (lab coordinator)"
+      "Theoretical Course – Chemical Engineering Thermodynamics I (Spring 2022 & Spring 2023), Fluid Mechanics (Fall 2022)",
+      "Laboratory Course – Chemical Engineering Thermodynamics Lab (lab coordinator, Fall 2022)"
     ],
     "badge": "Teaching",
     "skills": ["Teaching", "Grading", "Proctoring", "Lab Course Coordinator"]
