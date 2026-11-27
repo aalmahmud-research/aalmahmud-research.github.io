@@ -490,6 +490,93 @@
     transform: translateY(-3px);
     background: #1e40af;
 }
+        
+/* ===== ABOUT ME EMAIL CARD ===== */
+
+#about .about-email-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: fit-content;
+    max-width: 100%;
+    margin-top: 22px;
+    padding: 13px 17px;
+    background: #FFFBF5;
+    border: 1px solid #E9DED1;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(40,30,20,.06);
+    transition: transform .2s ease,
+                box-shadow .2s ease;
+}
+
+#about .about-email-card:hover {
+    transform: translateY(-3px);
+    border-color: #D9A3AB;
+    box-shadow: 0 7px 18px rgba(40,30,20,.12);
+}
+
+#about .about-email-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #F9E8E9;
+    color: #BA0C2F;
+    border-radius: 12px;
+}
+
+#about .about-email-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+#about .about-email-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+#about .about-email-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    color: #8B6D65;
+}
+
+#about #about-email {
+    font-size: 15px;
+    font-weight: 600;
+    color: #292524;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+#about #about-email:hover {
+    color: #BA0C2F;
+    text-decoration: underline;
+}
+
+#about .about-email-arrow {
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    margin-left: 6px;
+    color: #BA0C2F;
+}
+
+@media (max-width: 640px) {
+    #about .about-email-card {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+
+    #about #about-email {
+        font-size: 13px;
+    }
+}
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -682,9 +769,21 @@
                     </div>
                     <p id="about-bio" class="text-gray-600 leading-relaxed text-[0.95rem] text-justify"></p>
                     <div id="about-skills" class="flex flex-wrap justify-center md:justify-start gap-2 mt-4"></div>
-                    <div class="flex items-center gap-1.5 mt-4 text-sm text-gray-500 justify-center md:justify-start">
-                        <i data-lucide="mail" class="w-4 h-4 text-blue-500 flex-shrink-0"></i>
-                        <a id="about-email" href="" class="hover:text-blue-600 transition-colors"></a>
+                    
+                    <!-- About Me Email Card -->
+                    <div class="about-email-card">
+                    
+                        <div class="about-email-icon">
+                            <i data-lucide="mail"></i>
+                        </div>
+                    
+                        <div class="about-email-details">
+                            <span class="about-email-label">GET IN TOUCH</span>
+                            <a id="about-email" href=""></a>
+                        </div>
+                    
+                        <i data-lucide="arrow-up-right"
+                           class="about-email-arrow"></i>
                     </div>
                 </div>
             </div>
