@@ -365,9 +365,20 @@
     font-size: 1.8rem;
 }
 
+/* Statistics numbers */
+#hero .hero-stat strong {
+    display: block;
+    color: #9cdcff;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* Statistics labels */
 #hero .hero-stat span {
-    font-size: .8rem;
+    font-size: 0.95rem;
+    font-weight: 500;
     color: #e4edff;
+    text-align: center;
 }
 
 #hero .hero-scroll {
@@ -572,7 +583,7 @@
             </div>
 
             <div class="hero-stat">
-                <strong id="hero-experience">—</strong>
+                <strong id="hero-citations">—</strong>
                 <span>Citations</span>
             </div>
 
@@ -802,18 +813,14 @@ for (const [id, url] of Object.entries(heroLinkValues)) {
 }
 
 // Automatically count entries in your existing JSON files
-document.getElementById('hero-publications').textContent =
-    publicationsData.length;
 
-document.getElementById('hero-research').textContent =
-    researchData.length;
+document.getElementById('hero-publications').textContent = '22+';
 
-document.getElementById('hero-projects').textContent =
-    projectsData.length;
+document.getElementById('hero-research').textContent = '4';
 
-document.getElementById('hero-experience').textContent =
-    experienceData.length;
+document.getElementById('hero-projects').textContent = '6';
 
+document.getElementById('hero-citations').textContent = '500+';
 
 // ===== AUTO-TYPING EFFECT =====
 const typingPhrases =
